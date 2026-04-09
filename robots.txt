@@ -1,0 +1,12 @@
+# robots.txt - UpTech Agency
+# https://uptech-agency.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://uptech-agency.com/sitemap.xml
+
+# Bloquer les dossiers non pertinents
+Disallow: /logoisum/
+Disallow: /.claude/

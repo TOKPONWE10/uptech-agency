@@ -1,0 +1,23 @@
+# Dossiers systeme
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Claude config
+.claude/
+
+# Projet secondaire
+logoisum/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+*.swp
+*.swo
+*~

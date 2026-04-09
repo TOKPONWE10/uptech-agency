@@ -1,0 +1,21 @@
+# Headers pour Netlify / Vercel / Cloudflare Pages
+# Si vous hebergez sur ces plateformes au lieu d'Apache
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+/style.css
+  Cache-Control: public, max-age=604800
+
+/script.js
+  Cache-Control: public, max-age=604800
+
+/logo.jpeg
+  Cache-Control: public, max-age=2592000
+
+/image.jpeg
+  Cache-Control: public, max-age=2592000
