@@ -1,897 +1,2226 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>UpTech Agency | Agence Digitale Parakou Bénin - Sites Web, Apps Mobiles, Design</title>
-    <meta name="description" content="UpTech Agency, agence digitale à Parakou au Bénin. Création de sites web professionnels, applications mobiles Flutter, design UI/UX, graphisme et référencement SEO. Devis gratuit. Fondée par Olive C. TOKPONWE.">
-    <meta name="keywords" content="agence digitale Bénin, création site web Parakou, développement application mobile Bénin, UI/UX design Parakou, graphisme Bénin, SEO Bénin, UpTech Agency, Olive TOKPONWE, agence web Afrique, site internet Parakou, Flutter Bénin, WordPress Parakou, développeur web Bénin">
-    <meta name="author" content="UpTech Agency - Olive C. TOKPONWE">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta name="googlebot" content="index, follow">
-    <meta name="geo.region" content="BJ">
-    <meta name="geo.placename" content="Parakou">
-    <meta name="geo.position" content="9.3370;2.6278">
-    <meta name="ICBM" content="9.3370, 2.6278">
-    <meta name="theme-color" content="#0ea5e9">
-    <meta name="msapplication-TileColor" content="#0ea5e9">
-    <link rel="canonical" href="https://uptech-agency.com/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UpTech Agency | Agence Digitale Parakou Bénin — Sites web, Apps, Design</title>
+<meta name="description" content="UpTech Agency — agence digitale à Parakou. Sites web haute conversion, applications mobiles Flutter, design UI/UX et référencement. Devis gratuit sous 24h.">
+<meta name="keywords" content="agence digitale Bénin, création site web Parakou, développeur Flutter Bénin, UI/UX Parakou, UpTech, Olive TOKPONWE">
+<meta name="author" content="UpTech Agency — Olive C. TOKPONWE">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0ea5e9">
+<link rel="canonical" href="https://uptech-agency.com/">
+<link rel="icon" type="image/jpeg" href="logo.jpeg">
+<link rel="apple-touch-icon" href="logo.jpeg">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="logo.jpeg">
-    <link rel="apple-touch-icon" href="logo.jpeg">
+<!-- Open Graph -->
+<meta property="og:title" content="UpTech Agency | Agence Digitale Parakou Bénin">
+<meta property="og:description" content="Sites web, apps mobiles, design. Votre partenaire digital au Bénin.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
 
-    <!-- PWA Manifest -->
-    <link rel="manifest" href="manifest.json">
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "UpTech Agency",
+  "description": "Agence digitale à Parakou, Bénin. Sites web, apps mobiles, design et SEO.",
+  "url": "https://uptech-agency.com",
+  "founder": { "@type": "Person", "name": "Olive C. TOKPONWE", "jobTitle": "Fondateur & CEO" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Parakou", "addressRegion": "Borgou", "addressCountry": "BJ" },
+  "contactPoint": { "@type": "ContactPoint", "telephone": "+2290197349687", "email": "agencyuptech@gmail.com", "contactType": "customer service", "availableLanguage": ["French", "English"] },
+  "areaServed": [{ "@type": "Country", "name": "Bénin" }, { "@type": "Country", "name": "Togo" }, { "@type": "Country", "name": "Niger" }]
+}
+</script>
 
-    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
-    <meta property="og:site_name" content="UpTech Agency">
-    <meta property="og:title" content="UpTech Agency | Agence Digitale Parakou Bénin">
-    <meta property="og:description" content="Création de sites web, applications mobiles Flutter, design UI/UX et graphisme. Votre partenaire digital au Bénin. Devis gratuit !">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://uptech-agency.com/">
-    <meta property="og:image" content="https://uptech-agency.com/og-image.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="UpTech Agency - Agence Digitale à Parakou, Bénin">
-    <meta property="og:locale" content="fr_FR">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="UpTech Agency | Agence Digitale Parakou Bénin">
-    <meta name="twitter:description" content="Création de sites web, applications mobiles, design UI/UX et graphisme. Votre partenaire digital au Bénin.">
-    <meta name="twitter:image" content="https://uptech-agency.com/og-image.jpg">
-    <meta name="twitter:image:alt" content="UpTech Agency - Agence Digitale à Parakou, Bénin">
+<style>
+:root {
+  --bg-0: #050609;
+  --bg-1: #0a0c12;
+  --bg-2: #11141d;
+  --bg-3: #191d2a;
+  --primary: #0ea5e9;
+  --primary-light: #38bdf8;
+  --primary-dark: #0369a1;
+  --accent: #a855f7;
+  --gold: #fbbf24;
+  --text: #f1f5f9;
+  --text-dim: #94a3b8;
+  --text-soft: #cbd5e1;
+  --glass: rgba(255,255,255,0.03);
+  --glass-strong: rgba(255,255,255,0.06);
+  --glass-border: rgba(255,255,255,0.08);
+  --glow-primary: 0 0 80px rgba(14,165,233,0.35);
+  --shadow-xl: 0 30px 80px rgba(0,0,0,0.6);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
 
-    <!-- Structured Data: Organization -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "UpTech Agency",
-        "alternateName": "UpTech",
-        "description": "Agence digitale à Parakou, Bénin. Création de sites web professionnels, applications mobiles Flutter, design UI/UX, graphisme et référencement SEO.",
-        "url": "https://uptech-agency.com",
-        "logo": "https://uptech-agency.com/logo.jpeg",
-        "image": "https://uptech-agency.com/og-image.jpg",
-        "priceRange": "$$",
-        "founder": {
-            "@type": "Person",
-            "name": "Olive C. TOKPONWE",
-            "jobTitle": "Fondateur & CEO"
-        },
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Parakou",
-            "addressLocality": "Parakou",
-            "addressRegion": "Borgou",
-            "addressCountry": "BJ"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "9.3370",
-            "longitude": "2.6278"
-        },
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+229-01-97-34-96-87",
-            "email": "agencyuptech@gmail.com",
-            "contactType": "customer service",
-            "availableLanguage": ["French", "English"]
-        },
-        "sameAs": [
-            "https://www.facebook.com/uptechagency",
-            "https://www.instagram.com/uptechagency",
-            "https://www.linkedin.com/company/uptechagency",
-            "https://wa.me/22901973496877"
-        ],
-        "openingHours": "Mo-Fr 08:00-18:00",
-        "areaServed": [
-            {
-                "@type": "Country",
-                "name": "Bénin"
-            },
-            {
-                "@type": "Country",
-                "name": "Togo"
-            },
-            {
-                "@type": "Country",
-                "name": "Niger"
-            }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Services Digitaux",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Création de Sites Web",
-                        "description": "Sites vitrines et professionnels modernes, rapides et optimisés SEO."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Applications Mobiles",
-                        "description": "Développement d'applications mobiles performantes avec Flutter."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Design UI/UX",
-                        "description": "Interfaces modernes et centrées utilisateur pour une expérience optimale."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Graphisme & Identité Visuelle",
-                        "description": "Logos, chartes graphiques et supports de communication."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Référencement SEO",
-                        "description": "Optimisation pour les moteurs de recherche, visibilité Google."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Maintenance Web",
-                        "description": "Support technique, mises à jour et maintenance de sites web."
-                    }
-                }
-            ]
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "4",
-            "bestRating": "5"
-        }
-    }
-    </script>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg-0);
+  color: var(--text);
+  overflow-x: hidden;
+  line-height: 1.85;
+  cursor: none;
+}
+@media (max-width: 900px) { body { cursor: auto; } }
 
-    <!-- Structured Data: Breadcrumb -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Accueil",
-                "item": "https://uptech-agency.com/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Services",
-                "item": "https://uptech-agency.com/#services"
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Portfolio",
-                "item": "https://uptech-agency.com/#portfolio"
-            },
-            {
-                "@type": "ListItem",
-                "position": 4,
-                "name": "Contact",
-                "item": "https://uptech-agency.com/#contact"
-            }
-        ]
-    }
-    </script>
+h1, h2, h3, h4, .display {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+p { margin-bottom: 0.8em; line-height: 1.85; }
+.serif { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; letter-spacing: -0.01em; }
 
-    <!-- Structured Data: FAQ (aide au SEO avec rich snippets) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Combien coute la creation d'un site web au Benin ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Le prix d'un site web varie selon le type de projet. Chez UpTech Agency a Parakou, un site vitrine demarre a partir de 100 000 FCFA. Contactez-nous pour un devis personnalise gratuit."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "UpTech cree-t-il des applications mobiles ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, UpTech Agency developpe des applications mobiles performantes avec Flutter pour Android et iOS. Nous accompagnons les entreprises du Benin et d'Afrique de l'Ouest dans leur transformation digitale."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Ou se trouve l'agence UpTech ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "UpTech Agency est basee a Parakou, dans le departement du Borgou au Benin. Nous travaillons aussi a distance avec des clients dans tout le Benin, au Togo et au Niger."
-                }
-            }
-        ]
-    }
-    </script>
+/* ===== LOADER ===== */
+#loader {
+  position: fixed; inset: 0; z-index: 10000;
+  background: var(--bg-0);
+  display: flex; align-items: center; justify-content: center;
+  transition: opacity 0.8s, visibility 0.8s;
+}
+#loader.hide { opacity: 0; visibility: hidden; }
+.loader-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  font-weight: 300;
+  color: var(--text);
+  letter-spacing: -0.03em;
+  overflow: hidden;
+  display: flex;
+}
+.loader-text span {
+  display: inline-block;
+  animation: loaderLetter 1.2s var(--ease-out) forwards;
+  opacity: 0; transform: translateY(100%);
+}
+.loader-text span:nth-child(1) { animation-delay: 0.05s; }
+.loader-text span:nth-child(2) { animation-delay: 0.1s; color: var(--primary); }
+.loader-text span:nth-child(3) { animation-delay: 0.15s; }
+.loader-text span:nth-child(4) { animation-delay: 0.2s; }
+.loader-text span:nth-child(5) { animation-delay: 0.25s; }
+.loader-text span:nth-child(6) { animation-delay: 0.3s; }
+@keyframes loaderLetter { to { opacity: 1; transform: translateY(0); } }
 
-    <!-- Preload critical resources -->
-    <link rel="preload" href="style.css" as="style">
-    <link rel="preload" href="script.js" as="script">
-    <link rel="preload" href="logo.jpeg" as="image">
+/* ===== CUSTOM CURSOR ===== */
+.cursor, .cursor-follower {
+  position: fixed; pointer-events: none; z-index: 9999;
+  transition: transform 0.15s var(--ease-out);
+  mix-blend-mode: difference;
+}
+.cursor {
+  width: 6px; height: 6px; background: #fff;
+  border-radius: 50%; top: 0; left: 0;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s, height 0.3s, background 0.3s;
+}
+.cursor-follower {
+  width: 40px; height: 40px;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 50%; top: 0; left: 0;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s, height 0.3s, border-color 0.3s, transform 0.1s;
+}
+.cursor.active { width: 50px; height: 50px; background: rgba(14,165,233,0.15); mix-blend-mode: normal; }
+.cursor-follower.active { width: 80px; height: 80px; border-color: var(--primary); }
+@media (max-width: 900px) { .cursor, .cursor-follower { display: none; } }
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://d3mxt5v3yxgcsr.cloudfront.net">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+/* ===== PROGRESS BAR ===== */
+.progress-bar {
+  position: fixed; top: 0; left: 0; height: 2px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  z-index: 999; width: 0%;
+  transition: width 0.1s linear;
+  box-shadow: 0 0 10px var(--primary);
+}
+
+/* ===== NOISE OVERLAY ===== */
+.noise {
+  position: fixed; inset: 0; z-index: 1; pointer-events: none;
+  opacity: 0.04; mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ===== NAVBAR ===== */
+nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  padding: 20px 5%;
+  display: flex; justify-content: space-between; align-items: center;
+  z-index: 100;
+  transition: all 0.4s var(--ease);
+  backdrop-filter: blur(0px);
+}
+nav.scrolled {
+  padding: 14px 5%;
+  background: rgba(5,6,9,0.7);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--glass-border);
+}
+.nav-logo {
+  text-decoration: none;
+  display: flex; align-items: center; gap: 10px;
+}
+.nav-logo img {
+  height: 40px; width: auto;
+  filter: brightness(1.1);
+  transition: transform 0.3s, filter 0.3s;
+}
+.nav-logo img:hover {
+  transform: scale(1.08);
+  filter: brightness(1.3) drop-shadow(0 0 12px rgba(14,165,233,0.5));
+}
+.nav-logo .logo-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem; font-weight: 600;
+  color: var(--text); letter-spacing: -0.02em;
+}
+.nav-logo .logo-text em { font-family: 'Instrument Serif', serif; font-style: italic; color: var(--primary); font-weight: 400; }
+nav.scrolled .nav-logo img { height: 34px; }
+
+.nav-links { display: flex; gap: 2.5rem; list-style: none; }
+.nav-links a {
+  color: var(--text-soft); text-decoration: none;
+  font-size: 0.88rem; font-weight: 500;
+  letter-spacing: 0.3px;
+  position: relative;
+  transition: color 0.3s;
+}
+.nav-links a::before {
+  content: ''; position: absolute;
+  left: -12px; top: 50%; transform: translateY(-50%);
+  width: 4px; height: 4px; border-radius: 50%;
+  background: var(--primary);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.nav-links a:hover { color: var(--text); }
+.nav-links a:hover::before { opacity: 1; }
+
+.nav-cta {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 11px 22px;
+  background: var(--text);
+  color: var(--bg-0);
+  text-decoration: none;
+  font-weight: 600; font-size: 0.85rem;
+  border-radius: 100px;
+  transition: transform 0.3s var(--ease), box-shadow 0.3s;
+}
+.nav-cta:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(255,255,255,0.15); }
+.nav-cta svg { transition: transform 0.3s; }
+.nav-cta:hover svg { transform: translate(3px, -3px); }
+
+.burger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+.burger span { width: 25px; height: 2px; background: var(--text); transition: 0.3s; }
+
+@media (max-width: 900px) {
+  .nav-links {
+    display: none;
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(5,6,9,0.95);
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 2rem; z-index: 99;
+  }
+  .nav-links.open { display: flex; }
+  .nav-links a { font-size: 1.3rem; color: var(--text); }
+  .nav-cta { display: none; }
+  .burger { display: flex; z-index: 101; }
+  .burger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+  .burger.active span:nth-child(2) { opacity: 0; }
+  .burger.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+}
+
+/* ===== HERO ===== */
+#hero {
+  position: relative;
+  min-height: 100vh;
+  padding: 140px 5% 120px;
+  display: flex; flex-direction: column; justify-content: center;
+  overflow: hidden;
+}
+#three-canvas {
+  position: absolute; inset: 0; z-index: 1;
+}
+.hero-gradient {
+  position: absolute; inset: 0; z-index: 2;
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 50%, transparent 0%, var(--bg-0) 80%),
+    radial-gradient(ellipse 50% 80% at 20% 30%, rgba(14,165,233,0.25) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 80% at 80% 70%, rgba(168,85,247,0.18) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative; z-index: 3;
+  max-width: 1400px; margin: 0 auto; width: 100%;
+  pointer-events: none;
+}
+
+.hero-tag {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 8px 16px;
+  background: rgba(14,165,233,0.08);
+  border: 1px solid rgba(14,165,233,0.25);
+  border-radius: 100px;
+  color: var(--primary-light);
+  font-size: 0.78rem; font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+  backdrop-filter: blur(10px);
+  animation: fadeUp 1s var(--ease-out) 0.3s backwards;
+}
+.hero-tag .live {
+  width: 8px; height: 8px; background: #22c55e;
+  border-radius: 50%; animation: livePulse 1.5s infinite;
+  box-shadow: 0 0 10px #22c55e;
+}
+@keyframes livePulse { 50% { opacity: 0.4; } }
+
+.hero-title {
+  font-size: clamp(3rem, 9vw, 8rem);
+  font-weight: 400;
+  line-height: 1.15;
+  margin-bottom: 35px;
+  color: var(--text);
+  max-width: 1100px;
+}
+.hero-title .word {
+  display: inline-block; overflow: hidden; vertical-align: top;
+  padding-bottom: 0.1em;
+}
+.hero-title .word-inner {
+  display: inline-block;
+  animation: slideUp 1.2s var(--ease-out) backwards;
+}
+.hero-title .word:nth-child(1) .word-inner { animation-delay: 0.5s; }
+.hero-title .word:nth-child(2) .word-inner { animation-delay: 0.6s; }
+.hero-title .word:nth-child(3) .word-inner { animation-delay: 0.7s; }
+.hero-title .word:nth-child(4) .word-inner { animation-delay: 0.8s; }
+.hero-title .word:nth-child(5) .word-inner { animation-delay: 0.9s; }
+.hero-title .word:nth-child(6) .word-inner { animation-delay: 1s; }
+.hero-title .accent {
+  background: linear-gradient(135deg, var(--primary-light) 0%, var(--accent) 100%);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+
+.hero-sub {
+  font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+  color: var(--text-dim);
+  max-width: 600px;
+  margin-bottom: 40px;
+  font-weight: 300;
+  line-height: 1.6;
+  animation: fadeUp 1s var(--ease-out) 1.2s backwards;
+}
+
+.hero-actions {
+  display: flex; gap: 16px; flex-wrap: wrap;
+  pointer-events: all;
+  animation: fadeUp 1s var(--ease-out) 1.4s backwards;
+}
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 12px;
+  padding: 18px 36px;
+  background: var(--text);
+  color: var(--bg-0);
+  text-decoration: none;
+  font-weight: 600; font-size: 0.95rem;
+  border-radius: 100px;
+  transition: all 0.4s var(--ease);
+  position: relative; overflow: hidden;
+}
+.btn-primary::before {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  transform: translateX(-100%);
+  transition: transform 0.5s var(--ease);
+}
+.btn-primary:hover::before { transform: translateX(0); }
+.btn-primary span { position: relative; z-index: 1; transition: color 0.3s; }
+.btn-primary:hover span { color: #fff; }
+.btn-primary .arrow {
+  position: relative; z-index: 1;
+  width: 32px; height: 32px;
+  background: var(--bg-0); color: var(--text);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.4s;
+}
+.btn-primary:hover .arrow { background: #fff; color: var(--bg-0); transform: rotate(-45deg); }
+
+.btn-ghost {
+  display: inline-flex; align-items: center; gap: 12px;
+  padding: 18px 36px;
+  background: var(--glass);
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500; font-size: 0.95rem;
+  border: 1px solid var(--glass-border);
+  border-radius: 100px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s;
+}
+.btn-ghost:hover { background: var(--glass-strong); border-color: var(--primary); }
+.btn-ghost .play {
+  width: 28px; height: 28px; border-radius: 50%;
+  background: var(--primary);
+  display: flex; align-items: center; justify-content: center;
+}
+
+.hero-meta {
+  position: relative;
+  z-index: 3;
+  margin-top: 80px;
+  pointer-events: all;
+  display: flex; justify-content: space-between; align-items: flex-end;
+  gap: 20px; flex-wrap: wrap;
+  animation: fadeUp 1s var(--ease-out) 1.6s backwards;
+}
+.hero-meta-left {
+  display: flex; gap: 40px;
+}
+.meta-item { display: flex; flex-direction: column; gap: 2px; }
+.meta-item strong {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem; font-weight: 500;
+  color: var(--text); line-height: 1;
+}
+.meta-item strong .plus { color: var(--primary); }
+.meta-item span {
+  font-size: 0.72rem; color: var(--text-dim);
+  letter-spacing: 1.5px; text-transform: uppercase;
+  font-weight: 500;
+}
+
+.scroll-hint {
+  display: flex; align-items: center; gap: 10px;
+  color: var(--text-dim);
+  font-size: 0.78rem; letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.scroll-hint .line {
+  width: 40px; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--primary));
+  position: relative;
+}
+.scroll-hint .line::after {
+  content: ''; position: absolute; right: 0; top: -2px;
+  width: 5px; height: 5px; background: var(--primary);
+  border-radius: 50%;
+  animation: scrollDot 2s infinite;
+}
+@keyframes scrollDot { 0%,100% { right: 0; opacity: 1; } 50% { right: 30px; opacity: 0.5; } }
+
+@keyframes fadeUp { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ===== MARQUEE ===== */
+.marquee {
+  padding: 30px 0;
+  border-top: 1px solid var(--glass-border);
+  border-bottom: 1px solid var(--glass-border);
+  background: var(--bg-0);
+  overflow: hidden;
+  position: relative;
+}
+.marquee-track {
+  display: flex; gap: 60px;
+  animation: marquee 30s linear infinite;
+  white-space: nowrap;
+}
+.marquee-item {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 500;
+  color: var(--text);
+  display: flex; align-items: center; gap: 60px;
+}
+.marquee-item .dot { color: var(--primary); font-size: 0.5em; }
+.marquee-item.outline {
+  -webkit-text-stroke: 1px var(--text-soft);
+  color: transparent;
+}
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* ===== SECTIONS ===== */
+section.section { padding: 140px 5%; position: relative; }
+
+.container { max-width: 1400px; margin: 0 auto; }
+
+.section-head { margin-bottom: 80px; max-width: 900px; }
+.section-label {
+  display: inline-flex; align-items: center; gap: 10px;
+  color: var(--primary);
+  font-size: 0.75rem; font-weight: 500;
+  letter-spacing: 3px; text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.section-label::before {
+  content: ''; width: 30px; height: 1px; background: var(--primary);
+}
+.section-title {
+  font-size: clamp(2.5rem, 5.5vw, 4.5rem);
+  font-weight: 400;
+  color: var(--text);
+  margin-bottom: 25px;
+}
+.section-title .accent {
+  background: linear-gradient(135deg, var(--primary-light), var(--accent));
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-title .serif { color: var(--primary-light); }
+.section-desc {
+  font-size: 1.1rem; color: var(--text-dim);
+  font-weight: 300; max-width: 680px;
+}
+
+/* ===== ABOUT ===== */
+#about { background: var(--bg-1); position: relative; overflow: hidden; }
+#about::before {
+  content: ''; position: absolute;
+  top: -200px; right: -200px;
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, rgba(14,165,233,0.15), transparent 70%);
+  filter: blur(40px);
+}
+
+.about-grid {
+  display: grid; grid-template-columns: 1.2fr 1fr;
+  gap: 80px; align-items: center;
+}
+.about-visual {
+  position: relative; perspective: 1500px;
+  aspect-ratio: 4/5;
+}
+.about-card-main {
+  position: absolute; inset: 0;
+  border-radius: 24px; overflow: hidden;
+  border: 1px solid var(--glass-border);
+  background: linear-gradient(145deg, var(--bg-2), var(--bg-1));
+  transform-style: preserve-3d;
+  transition: transform 0.6s var(--ease);
+  box-shadow: var(--shadow-xl);
+}
+.about-card-main:hover { transform: rotateY(-6deg) rotateX(3deg); }
+.about-card-main::before {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(145deg, transparent 40%, rgba(14,165,233,0.1));
+  z-index: 2;
+}
+.about-card-main .founder-bg {
+  position: absolute; inset: 0;
+  background: radial-gradient(circle at 50% 40%, rgba(14,165,233,0.3), transparent 60%);
+}
+.founder-initials {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Instrument Serif', serif; font-style: italic;
+  font-size: clamp(5rem, 12vw, 10rem);
+  font-weight: 400;
+  background: linear-gradient(135deg, var(--primary-light), var(--accent));
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 3;
+}
+.founder-label {
+  position: absolute; bottom: 30px; left: 30px;
+  z-index: 3;
+  color: var(--text);
+}
+.founder-label strong {
+  display: block; font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem; font-weight: 500;
+  margin-bottom: 3px;
+}
+.founder-label span { color: var(--text-dim); font-size: 0.85rem; }
+
+.float-badge {
+  position: absolute;
+  bottom: -30px; right: -20px;
+  padding: 18px 24px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  border-radius: 16px;
+  color: #fff;
+  transform: translateZ(60px);
+  box-shadow: var(--glow-primary);
+  animation: floatBadge 4s ease-in-out infinite;
+  z-index: 4;
+}
+.float-badge strong {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem; font-weight: 500;
+  display: block; line-height: 1;
+}
+.float-badge span {
+  font-size: 0.7rem; letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+@keyframes floatBadge { 0%,100% { transform: translateZ(60px) translateY(0); } 50% { transform: translateZ(60px) translateY(-10px); } }
+
+.pillars-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 20px; margin-top: 40px;
+}
+.pillar {
+  padding: 28px;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  transition: all 0.4s var(--ease);
+  position: relative; overflow: hidden;
+}
+.pillar::before {
+  content: ''; position: absolute;
+  top: 0; left: 0; width: 100%; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--primary), transparent);
+  opacity: 0; transition: opacity 0.4s;
+}
+.pillar:hover { transform: translateY(-5px); border-color: rgba(14,165,233,0.3); background: var(--glass-strong); }
+.pillar:hover::before { opacity: 1; }
+.pillar-num {
+  font-family: 'Instrument Serif', serif; font-style: italic;
+  font-size: 1.8rem; color: var(--primary);
+  line-height: 1; margin-bottom: 15px;
+}
+.pillar h4 {
+  font-size: 1.15rem; color: var(--text);
+  margin-bottom: 10px; font-weight: 500;
+}
+.pillar p { font-size: 0.88rem; color: var(--text-dim); }
+
+.tech-stack {
+  margin-top: 30px;
+  display: flex; gap: 10px; flex-wrap: wrap;
+}
+.tech-pill {
+  padding: 8px 16px;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: 100px;
+  color: var(--text-soft);
+  font-size: 0.8rem; font-weight: 500;
+  transition: all 0.3s;
+}
+.tech-pill:hover { border-color: var(--primary); color: var(--text); background: rgba(14,165,233,0.08); }
+
+/* ===== SERVICES ===== */
+#services { background: var(--bg-0); position: relative; }
+.services-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+.service-card {
+  padding: 40px;
+  background: linear-gradient(145deg, var(--bg-2), var(--bg-1));
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s var(--ease);
+  cursor: pointer;
+  min-height: 340px;
+  display: flex; flex-direction: column;
+}
+.service-card::before {
+  content: ''; position: absolute;
+  top: 0; left: -100%;
+  width: 100%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(14,165,233,0.05), transparent);
+  transition: left 0.8s var(--ease);
+}
+.service-card:hover::before { left: 100%; }
+.service-card::after {
+  content: ''; position: absolute;
+  top: 0; left: 0; width: 0; height: 2px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  transition: width 0.5s var(--ease);
+}
+.service-card:hover { transform: translateY(-8px); border-color: rgba(14,165,233,0.3); }
+.service-card:hover::after { width: 100%; }
+
+.service-num {
+  font-family: 'Instrument Serif', serif; font-style: italic;
+  font-size: 3.5rem; font-weight: 400;
+  color: var(--primary);
+  opacity: 0.15;
+  position: absolute; top: 30px; right: 30px;
+  line-height: 1;
+  transition: all 0.4s;
+}
+.service-card:hover .service-num { opacity: 0.4; transform: scale(1.2); }
+.service-icon {
+  width: 56px; height: 56px;
+  background: rgba(14,165,233,0.1);
+  border: 1px solid rgba(14,165,233,0.2);
+  border-radius: 16px;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--primary-light);
+  margin-bottom: 25px;
+  transition: all 0.4s;
+}
+.service-card:hover .service-icon {
+  background: var(--primary);
+  color: #fff;
+  transform: rotate(-5deg) scale(1.05);
+}
+.service-card h3 {
+  font-size: 1.4rem; color: var(--text);
+  margin-bottom: 12px; font-weight: 500;
+}
+.service-card p {
+  font-size: 0.92rem; color: var(--text-dim);
+  margin-bottom: 20px; flex: 1;
+}
+.service-tags {
+  display: flex; gap: 8px; flex-wrap: wrap;
+  padding-top: 20px;
+  border-top: 1px solid var(--glass-border);
+}
+.service-tags span {
+  padding: 4px 10px;
+  background: var(--glass);
+  border-radius: 100px;
+  font-size: 0.72rem;
+  color: var(--text-soft);
+}
+
+/* ===== PROCESS ===== */
+#process {
+  background: var(--bg-1);
+  position: relative; overflow: hidden;
+}
+.process-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 20px; position: relative;
+}
+.process-grid::before {
+  content: ''; position: absolute;
+  top: 45px; left: 10%; right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, var(--primary), transparent);
+}
+.process-step {
+  position: relative;
+  padding: 40px 25px;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  transition: all 0.5s var(--ease);
+}
+.process-step:hover {
+  transform: translateY(-6px);
+  border-color: var(--primary);
+  background: var(--glass-strong);
+}
+.process-num {
+  width: 50px; height: 50px;
+  background: var(--bg-2);
+  border: 1px solid var(--glass-border);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500; font-size: 1.1rem;
+  color: var(--primary);
+  margin: 0 auto 25px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.4s;
+}
+.process-step:hover .process-num {
+  background: var(--primary);
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: var(--glow-primary);
+}
+.process-step h4 {
+  font-size: 1.2rem; color: var(--text);
+  margin-bottom: 10px; font-weight: 500;
+  text-align: center;
+}
+.process-step p {
+  font-size: 0.88rem; color: var(--text-dim);
+  text-align: center;
+}
+
+/* ===== PORTFOLIO ===== */
+#portfolio { background: var(--bg-0); }
+.portfolio-filter {
+  display: flex; justify-content: center; gap: 10px;
+  margin-bottom: 50px; flex-wrap: wrap;
+}
+.filter-btn {
+  padding: 10px 24px;
+  background: transparent;
+  border: 1px solid var(--glass-border);
+  border-radius: 100px;
+  color: var(--text-dim);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.filter-btn.active, .filter-btn:hover {
+  background: var(--text);
+  color: var(--bg-0);
+  border-color: var(--text);
+}
+.portfolio-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.project {
+  position: relative;
+  aspect-ratio: 4/5;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  background: var(--bg-2);
+  border: 1px solid var(--glass-border);
+  transition: all 0.5s var(--ease);
+}
+.project:nth-child(1) { grid-column: span 2; aspect-ratio: 16/10; }
+.project-bg {
+  position: absolute; inset: 0;
+  background-size: cover; background-position: center;
+  transition: transform 0.8s var(--ease);
+}
+.project:hover { transform: translateY(-8px); }
+.project:hover .project-bg { transform: scale(1.08); }
+.project-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, transparent 40%, rgba(5,6,9,0.95));
+  z-index: 2;
+}
+.project-info {
+  position: absolute;
+  bottom: 30px; left: 30px; right: 30px;
+  z-index: 3;
+}
+.project-cat {
+  display: inline-block;
+  padding: 5px 12px;
+  background: rgba(14,165,233,0.2);
+  border: 1px solid rgba(14,165,233,0.4);
+  border-radius: 100px;
+  color: var(--primary-light);
+  font-size: 0.72rem; font-weight: 500;
+  letter-spacing: 1px; text-transform: uppercase;
+  margin-bottom: 12px;
+  backdrop-filter: blur(10px);
+}
+.project-info h3 {
+  font-size: 1.5rem; color: var(--text);
+  margin-bottom: 8px; font-weight: 500;
+}
+.project-info p { color: var(--text-soft); font-size: 0.88rem; }
+.project-link {
+  position: absolute; top: 25px; right: 25px;
+  z-index: 3;
+  width: 44px; height: 44px;
+  background: var(--glass);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text);
+  text-decoration: none;
+  transition: all 0.4s;
+  transform: rotate(-45deg);
+}
+.project:hover .project-link {
+  background: var(--primary); border-color: var(--primary);
+  transform: rotate(0deg) scale(1.1);
+}
+
+/* ===== PRICING ===== */
+#pricing {
+  background: var(--bg-1); position: relative; overflow: hidden;
+}
+#pricing::before {
+  content: ''; position: absolute;
+  bottom: -200px; left: -200px;
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, rgba(168,85,247,0.12), transparent 70%);
+  filter: blur(40px);
+}
+.pricing-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 20px; max-width: 1200px; margin: 0 auto;
+}
+.price-card {
+  padding: 45px 35px;
+  background: linear-gradient(145deg, var(--bg-2), var(--bg-1));
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
+  position: relative;
+  transition: all 0.5s var(--ease);
+  display: flex; flex-direction: column;
+}
+.price-card:hover { transform: translateY(-8px); border-color: rgba(14,165,233,0.3); }
+.price-card.featured {
+  background: linear-gradient(145deg, rgba(14,165,233,0.08), var(--bg-1));
+  border-color: rgba(14,165,233,0.4);
+  transform: scale(1.03);
+}
+.price-card.featured::before {
+  content: 'POPULAIRE'; position: absolute;
+  top: -12px; left: 50%; transform: translateX(-50%);
+  padding: 5px 18px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  color: #fff;
+  font-size: 0.7rem; font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 100px;
+}
+.price-card h3 {
+  font-size: 1.2rem; color: var(--text);
+  margin-bottom: 10px; font-weight: 500;
+}
+.price-card .subtitle {
+  color: var(--text-dim); font-size: 0.88rem;
+  margin-bottom: 25px;
+}
+.price-amount {
+  display: flex; align-items: baseline; gap: 6px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--glass-border);
+}
+.price-amount .from { font-size: 0.85rem; color: var(--text-dim); }
+.price-amount .num {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem; font-weight: 500;
+  color: var(--text);
+  line-height: 1;
+}
+.price-amount .currency { color: var(--text-dim); font-size: 0.9rem; }
+.price-amount .num.text { font-size: 2rem; }
+.price-features {
+  list-style: none;
+  flex: 1;
+  margin-bottom: 30px;
+}
+.price-features li {
+  padding: 10px 0;
+  color: var(--text-soft); font-size: 0.9rem;
+  display: flex; align-items: center; gap: 12px;
+}
+.price-features li::before {
+  content: ''; width: 18px; height: 18px; flex-shrink: 0;
+  background: rgba(14,165,233,0.15);
+  border-radius: 50%;
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%230ea5e9' stroke-width='3'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: center;
+}
+.price-btn {
+  display: block; width: 100%;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100px;
+  font-weight: 600; font-size: 0.9rem;
+  transition: all 0.3s;
+}
+.price-card:not(.featured) .price-btn {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  color: var(--text);
+}
+.price-card:not(.featured) .price-btn:hover {
+  background: var(--text); color: var(--bg-0); border-color: var(--text);
+}
+.price-card.featured .price-btn {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: #fff;
+  box-shadow: var(--glow-primary);
+}
+.price-card.featured .price-btn:hover { transform: translateY(-2px); }
+
+/* ===== FAQ ===== */
+#faq { background: var(--bg-0); }
+.faq-list {
+  max-width: 900px; margin: 0 auto;
+  display: flex; flex-direction: column; gap: 12px;
+}
+.faq-item {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.faq-item:hover { border-color: rgba(14,165,233,0.3); }
+.faq-item.open { border-color: var(--primary); background: rgba(14,165,233,0.05); }
+.faq-q {
+  padding: 24px 28px;
+  display: flex; justify-content: space-between; align-items: center;
+  cursor: pointer;
+  font-size: 1.05rem; font-weight: 500;
+  color: var(--text);
+  gap: 20px;
+}
+.faq-toggle {
+  width: 32px; height: 32px;
+  background: var(--glass);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.4s;
+}
+.faq-item.open .faq-toggle { background: var(--primary); }
+.faq-toggle::before, .faq-toggle::after {
+  content: ''; position: absolute;
+  width: 12px; height: 2px;
+  background: var(--text);
+  transition: transform 0.3s;
+}
+.faq-toggle::after { transform: rotate(90deg); }
+.faq-item.open .faq-toggle::after { transform: rotate(0deg); }
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s var(--ease);
+}
+.faq-item.open .faq-a { max-height: 300px; }
+.faq-a-inner {
+  padding: 0 28px 28px;
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* ===== CTA BAND ===== */
+.cta-band {
+  background: linear-gradient(135deg, var(--primary-dark), var(--primary), var(--accent));
+  padding: 100px 5%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.cta-band::before {
+  content: ''; position: absolute; inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.08; mix-blend-mode: overlay;
+}
+.cta-band h2 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: #fff; font-weight: 400;
+  margin-bottom: 20px;
+  position: relative;
+}
+.cta-band p {
+  color: rgba(255,255,255,0.85);
+  max-width: 600px; margin: 0 auto 30px;
+  font-size: 1.05rem;
+  position: relative;
+}
+.cta-band .btn-primary {
+  background: #fff; color: var(--primary-dark);
+  position: relative;
+}
+.cta-band .btn-primary::before { background: var(--bg-0); }
+.cta-band .btn-primary:hover span { color: #fff; }
+.cta-band .btn-primary .arrow { background: var(--primary-dark); color: #fff; }
+.cta-band .btn-primary:hover .arrow { background: #fff; color: var(--bg-0); }
+
+/* ===== CONTACT ===== */
+#contact { background: var(--bg-1); padding-bottom: 80px; }
+.contact-grid {
+  display: grid; grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+}
+.contact-info h2 { margin-bottom: 25px; }
+.contact-info p { color: var(--text-dim); margin-bottom: 35px; max-width: 480px; }
+.contact-items { display: flex; flex-direction: column; gap: 18px; margin-bottom: 35px; }
+.contact-item {
+  display: flex; gap: 16px;
+  padding: 18px 22px;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: 14px;
+  transition: all 0.3s;
+}
+.contact-item:hover { transform: translateX(5px); border-color: var(--primary); }
+.contact-item .ico {
+  width: 44px; height: 44px; flex-shrink: 0;
+  background: rgba(14,165,233,0.1);
+  color: var(--primary-light);
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+}
+.contact-item strong {
+  display: block; color: var(--text);
+  font-size: 0.92rem; font-weight: 500; margin-bottom: 2px;
+}
+.contact-item a, .contact-item span {
+  color: var(--text-dim); font-size: 0.88rem;
+  text-decoration: none; transition: color 0.3s;
+}
+.contact-item a:hover { color: var(--primary); }
+
+.socials {
+  display: flex; gap: 10px;
+}
+.social {
+  width: 44px; height: 44px;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-soft);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.social:hover { background: var(--primary); color: #fff; border-color: var(--primary); transform: translateY(-3px); }
+
+.contact-form-wrap {
+  padding: 45px 40px;
+  background: linear-gradient(145deg, var(--bg-2), var(--bg-1));
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
+  box-shadow: var(--shadow-xl);
+}
+.form-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.form-group { display: flex; flex-direction: column; }
+.form-group.full { grid-column: span 2; }
+.form-group label {
+  font-size: 0.72rem; color: var(--text-dim);
+  letter-spacing: 2px; text-transform: uppercase;
+  margin-bottom: 8px; font-weight: 500;
+}
+.form-group input, .form-group select, .form-group textarea {
+  padding: 14px 18px;
+  background: var(--bg-0);
+  border: 1px solid var(--glass-border);
+  border-radius: 10px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.93rem;
+  transition: all 0.3s;
+}
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(14,165,233,0.1);
+}
+.form-group textarea { resize: vertical; min-height: 100px; }
+.submit-btn {
+  grid-column: span 2;
+  padding: 18px;
+  background: var(--text);
+  color: var(--bg-0);
+  border: none;
+  border-radius: 100px;
+  font-family: inherit;
+  font-weight: 600; font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+}
+.submit-btn:hover { transform: translateY(-2px); box-shadow: 0 15px 40px rgba(255,255,255,0.15); }
+
+/* ===== FOOTER ===== */
+footer {
+  background: var(--bg-0);
+  border-top: 1px solid var(--glass-border);
+  padding: 80px 5% 40px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 60px; max-width: 1400px; margin: 0 auto;
+  padding-bottom: 60px;
+  border-bottom: 1px solid var(--glass-border);
+}
+.footer-brand p {
+  color: var(--text-dim); font-size: 0.9rem;
+  margin: 20px 0; max-width: 340px;
+}
+.footer-col h5 {
+  color: var(--text);
+  font-size: 0.82rem; font-weight: 600;
+  letter-spacing: 2px; text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+.footer-col a {
+  color: var(--text-dim);
+  font-size: 0.9rem; text-decoration: none;
+  transition: color 0.3s;
+}
+.footer-col a:hover { color: var(--primary); }
+.footer-newsletter form {
+  display: flex; gap: 8px;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: 100px;
+  padding: 4px;
+  margin-top: 15px;
+}
+.footer-newsletter input {
+  flex: 1; padding: 10px 18px;
+  background: transparent; border: none;
+  color: var(--text); font-family: inherit; font-size: 0.88rem;
+}
+.footer-newsletter input:focus { outline: none; }
+.footer-newsletter button {
+  padding: 10px 18px;
+  background: var(--primary); color: #fff;
+  border: none; border-radius: 100px;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.3s;
+}
+.footer-newsletter button:hover { background: var(--primary-light); }
+
+.footer-bottom {
+  max-width: 1400px; margin: 0 auto;
+  padding-top: 40px;
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 15px;
+}
+.footer-bottom p, .footer-bottom a {
+  color: var(--text-dim); font-size: 0.82rem;
+  text-decoration: none;
+}
+.footer-bottom a:hover { color: var(--primary); }
+.footer-bottom-links { display: flex; gap: 25px; }
+
+/* ===== WHATSAPP FLOAT ===== */
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px; right: 30px;
+  width: 62px; height: 62px;
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 15px 40px rgba(37,211,102,0.4);
+  z-index: 98;
+  animation: whatsappPulse 2.5s infinite;
+  transition: transform 0.3s;
+}
+.whatsapp-float:hover { transform: scale(1.1); }
+@keyframes whatsappPulse {
+  0%, 100% { box-shadow: 0 15px 40px rgba(37,211,102,0.4), 0 0 0 0 rgba(37,211,102,0.7); }
+  50% { box-shadow: 0 15px 40px rgba(37,211,102,0.4), 0 0 0 20px rgba(37,211,102,0); }
+}
+
+/* ===== REVEAL ANIMATIONS ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 1s var(--ease-out), transform 1s var(--ease-out);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal[data-delay="100"] { transition-delay: 0.1s; }
+.reveal[data-delay="200"] { transition-delay: 0.2s; }
+.reveal[data-delay="300"] { transition-delay: 0.3s; }
+.reveal[data-delay="400"] { transition-delay: 0.4s; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+  .about-grid { grid-template-columns: 1fr; gap: 60px; }
+  .pricing-grid { grid-template-columns: 1fr; max-width: 500px; }
+  .price-card.featured { transform: scale(1); }
+  .portfolio-grid { grid-template-columns: 1fr 1fr; }
+  .project:nth-child(1) { grid-column: span 2; }
+  .process-grid { grid-template-columns: 1fr 1fr; }
+  .process-grid::before { display: none; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
+}
+@media (max-width: 640px) {
+  section.section { padding: 80px 5%; }
+  .portfolio-grid { grid-template-columns: 1fr; }
+  .project:nth-child(1) { grid-column: span 1; aspect-ratio: 4/5; }
+  .process-grid { grid-template-columns: 1fr; }
+  .form-grid { grid-template-columns: 1fr; }
+  .form-group.full, .submit-btn { grid-column: span 1; }
+  .footer-grid { grid-template-columns: 1fr; }
+  .hero-meta-left { gap: 25px; }
+  .meta-item strong { font-size: 1.6rem; }
+  .scroll-hint { display: none; }
+  .pillars-grid { grid-template-columns: 1fr; }
+  .contact-form-wrap { padding: 30px 25px; }
+  .whatsapp-float { bottom: 20px; right: 20px; width: 55px; height: 55px; }
+}
+</style>
 </head>
 <body>
 
-    <!-- Loader -->
-    <div id="loader" class="loader">
-        <div class="loader-inner">
-            <img src="logo.jpeg" alt="UpTech Agency" class="loader-logo-img">
-            <div class="loader-bar"><div class="loader-progress"></div></div>
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-text">
+    <span>U</span><span>p</span><span>T</span><span>e</span><span>c</span><span>h</span>
+  </div>
+</div>
+
+<!-- NOISE OVERLAY -->
+<div class="noise"></div>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursor-follower"></div>
+
+<!-- PROGRESS BAR -->
+<div class="progress-bar" id="progress-bar"></div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">
+    <img src="logo.jpeg" alt="UpTech Agency Logo" width="40" height="40">
+    <span class="logo-text">Up<em>Tech</em></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#process">Processus</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#pricing">Tarifs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="https://wa.me/2290197349687?text=Bonjour%20UpTech,%20je%20souhaite%20d%C3%A9marrer%20un%20projet" target="_blank" class="nav-cta">
+    <span>Démarrer un projet</span>
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+  </a>
+  <div class="burger"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <canvas id="three-canvas"></canvas>
+  <div class="hero-gradient"></div>
+
+  <div class="hero-content">
+    <span class="hero-tag"><span class="live"></span>Disponible pour de nouveaux projets</span>
+    <h1 class="hero-title">
+      <span class="word"><span class="word-inner">L'agence</span></span>
+      <span class="word"><span class="word-inner">qui propulse</span></span>
+      <span class="word"><span class="word-inner">vos</span></span>
+      <span class="word"><span class="word-inner accent serif">ambitions</span></span>
+      <span class="word"><span class="word-inner">digitales</span></span>
+    </h1>
+    <p class="hero-sub">Création de sites web sur mesure, applications mobiles haute performance et design premium — pour entrepreneurs, écoles et PME au Bénin et en Afrique de l'Ouest.</p>
+    <div class="hero-actions">
+      <a href="https://wa.me/2290197349687?text=Bonjour%20UpTech,%20je%20souhaite%20d%C3%A9marrer%20un%20projet" target="_blank" class="btn-primary">
+        <span>Démarrer un projet</span>
+        <div class="arrow">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
         </div>
+      </a>
+      <a href="#portfolio" class="btn-ghost">
+        <span class="play">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        </span>
+        Voir nos réalisations
+      </a>
     </div>
 
-    <!-- Custom Cursor -->
-    <div class="cursor" id="cursor"></div>
-    <div class="cursor-follower" id="cursor-follower"></div>
+    <div class="hero-meta">
+      <div class="hero-meta-left">
+        <div class="meta-item"><strong>10<span class="plus">+</span></strong><span>Projets livrés</span></div>
+        <div class="meta-item"><strong>6</strong><span>Services</span></div>
+        <div class="meta-item"><strong>100<span class="plus">%</span></strong><span>Satisfaction</span></div>
+      </div>
+      <div class="scroll-hint">Scroll <div class="line"></div></div>
+    </div>
+  </div>
+</section>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-hero" id="navbar">
-        <div class="nav-container">
-            <a href="#accueil" class="nav-logo">
-                <img src="logo.jpeg" alt="UpTech Agency" class="nav-logo-img">
-                <span class="nav-logo-text">Up<em>Tech</em></span>
-            </a>
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#accueil" class="nav-link active">Accueil</a></li>
-                <li><a href="#apropos" class="nav-link">À propos</a></li>
-                <li><a href="#services" class="nav-link">Services</a></li>
-                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                <li><a href="#temoignages" class="nav-link">Témoignages</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <a href="#contact" class="nav-cta">
-                <span>Démarrer un projet</span>
-                <div class="nav-cta-arrow">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
-                </div>
-            </a>
-            <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
-                <span></span><span></span><span></span>
-            </button>
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span class="marquee-item">Sites Web <span class="dot">●</span></span>
+    <span class="marquee-item outline">Apps Mobiles <span class="dot">●</span></span>
+    <span class="marquee-item">UI/UX Design <span class="dot">●</span></span>
+    <span class="marquee-item outline">Graphisme <span class="dot">●</span></span>
+    <span class="marquee-item">SEO <span class="dot">●</span></span>
+    <span class="marquee-item outline">Flutter <span class="dot">●</span></span>
+    <span class="marquee-item">WordPress <span class="dot">●</span></span>
+    <span class="marquee-item outline">Maintenance <span class="dot">●</span></span>
+    <span class="marquee-item">Sites Web <span class="dot">●</span></span>
+    <span class="marquee-item outline">Apps Mobiles <span class="dot">●</span></span>
+    <span class="marquee-item">UI/UX Design <span class="dot">●</span></span>
+    <span class="marquee-item outline">Graphisme <span class="dot">●</span></span>
+    <span class="marquee-item">SEO <span class="dot">●</span></span>
+    <span class="marquee-item outline">Flutter <span class="dot">●</span></span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="about-card-main">
+          <div class="founder-bg"></div>
+          <div class="founder-initials">OT</div>
+          <div class="founder-label">
+            <strong>Olive C. TOKPONWE</strong>
+            <span>Fondateur & Directeur Créatif</span>
+          </div>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero" id="accueil">
-        <!-- Video Background -->
-        <div class="hero-video-wrap">
-            <video class="hero-video" autoplay muted loop playsinline>
-                <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260228_065522_522e2295-ba22-457e-8fdb-fbcd68109c73.mp4" type="video/mp4">
-            </video>
+        <div class="float-badge">
+          <strong>100%</strong>
+          <span>Made in Bénin</span>
         </div>
+      </div>
 
-        <div class="hero-content">
-            <h1 class="hero-title">
-                <span class="hero-line hero-line-1">
-                    <span class="word-reveal">L'agence qui propulse vos</span>
-                </span>
-                <span class="hero-line hero-line-2">
-                    <span class="word-reveal">projets digitaux</span>
-                </span>
-            </h1>
-            <p class="hero-subtitle">
-                <span class="word-reveal">Création de sites web, applications mobiles et design pour entrepreneurs et entreprises</span>
-            </p>
-            <div class="hero-actions">
-                <a href="#contact" class="btn-hero-primary">
-                    <span>Démarrer un projet</span>
-                    <div class="btn-hero-arrow">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
-                    </div>
-                </a>
-                <a href="#portfolio" class="btn-hero-secondary">
-                    <div class="btn-play-icon">
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-                    </div>
-                    <span>Voir nos réalisations</span>
-                </a>
-            </div>
+      <div class="about-text">
+        <div class="reveal">
+          <span class="section-label">À propos</span>
+          <h2 class="section-title">Une agence <span class="serif accent">humaine</span>, des résultats <span class="accent">concrets.</span></h2>
+          <p class="section-desc">Depuis Parakou au Bénin, nous accompagnons entrepreneurs, écoles et PME dans leur transformation digitale. Sites web haute conversion, applications Flutter, design sur mesure — chaque projet est pensé pour générer du résultat, pas juste pour "faire joli".</p>
         </div>
 
-        <!-- Scroll Indicator -->
-        <div class="hero-scroll">
-            <div class="scroll-mouse">
-                <div class="scroll-dot"></div>
-            </div>
-            <span>Scroll</span>
+        <div class="pillars-grid reveal" data-delay="200">
+          <div class="pillar">
+            <div class="pillar-num">01</div>
+            <h4>Qualité européenne</h4>
+            <p>Design et code au standard international, tarifs accessibles.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar-num">02</div>
+            <h4>Approche business</h4>
+            <p>Chaque pixel sert un objectif : convertir vos visiteurs en clients.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar-num">03</div>
+            <h4>Livraison rapide</h4>
+            <p>De 5 à 14 jours pour la plupart des projets. Timing respecté.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar-num">04</div>
+            <h4>Support continu</h4>
+            <p>Nous restons à vos côtés après la mise en ligne.</p>
+          </div>
         </div>
-    </section>
 
-    <!-- Marquee Banner -->
-    <div class="marquee">
-        <div class="marquee-track">
-            <span>SITES WEB &bull; APPS MOBILES &bull; UI/UX DESIGN &bull; GRAPHISME &bull; SEO &bull; MAINTENANCE &bull; FLUTTER &bull; WORDPRESS &bull;&nbsp;</span>
-            <span>SITES WEB &bull; APPS MOBILES &bull; UI/UX DESIGN &bull; GRAPHISME &bull; SEO &bull; MAINTENANCE &bull; FLUTTER &bull; WORDPRESS &bull;&nbsp;</span>
+        <div class="tech-stack reveal" data-delay="300">
+          <span class="tech-pill">Flutter</span>
+          <span class="tech-pill">Dart</span>
+          <span class="tech-pill">WordPress</span>
+          <span class="tech-pill">HTML / CSS / JS</span>
+          <span class="tech-pill">Three.js</span>
+          <span class="tech-pill">Figma</span>
+          <span class="tech-pill">SEO</span>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-label">Nos services</span>
+      <h2 class="section-title">Des solutions complètes pour votre <span class="accent">croissance digitale</span></h2>
+      <p class="section-desc">De la conception à la mise en ligne, nous vous accompagnons sur chaque étape de votre transformation numérique.</p>
     </div>
 
-    <!-- À propos -->
-    <section class="section about" id="apropos">
-        <!-- Background decorations -->
-        <div class="about-bg">
-            <div class="about-orb about-orb-1"></div>
-            <div class="about-orb about-orb-2"></div>
-            <div class="about-line about-line-1"></div>
-            <div class="about-line about-line-2"></div>
+    <div class="services-grid">
+      <article class="service-card reveal">
+        <div class="service-num">01</div>
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+        </div>
+        <h3>Création de sites web</h3>
+        <p>Sites vitrines, e-commerce, landing pages. Modernes, rapides, optimisés pour convertir vos visiteurs en clients.</p>
+        <div class="service-tags"><span>WordPress</span><span>HTML/CSS/JS</span><span>Responsive</span></div>
+      </article>
+
+      <article class="service-card reveal" data-delay="100">
+        <div class="service-num">02</div>
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+        </div>
+        <h3>Applications mobiles</h3>
+        <p>Apps Flutter haute performance pour Android et iOS. Développement natif sur mesure selon vos besoins métier.</p>
+        <div class="service-tags"><span>Flutter</span><span>Dart</span><span>iOS / Android</span></div>
+      </article>
+
+      <article class="service-card reveal" data-delay="200">
+        <div class="service-num">03</div>
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        </div>
+        <h3>Design UI/UX</h3>
+        <p>Interfaces modernes et parcours utilisateur pensés. Nous concevons des produits agréables à utiliser.</p>
+        <div class="service-tags"><span>Figma</span><span>Maquettes</span><span>Prototypage</span></div>
+      </article>
+
+      <article class="service-card reveal" data-delay="300">
+        <div class="service-num">04</div>
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+        </div>
+        <h3>Graphisme & identité</h3>
+        <p>Logos, chartes graphiques, supports de communication. Une identité cohérente qui marque les esprits.</p>
+        <div class="service-tags"><span>Logo</span><span>Charte graphique</span><span>Flyers</span></div>
+      </article>
+
+      <article class="service-card reveal" data-delay="400">
+        <div class="service-num">05</div>
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <h3>Référencement SEO</h3>
+        <p>Optimisation Google pour que vos clients vous trouvent. Fiche Google My Business, mots-clés, contenu.</p>
+        <div class="service-tags"><span>SEO on-page</span><span>Google Maps</span><span>Contenu</span></div>
+      </article>
+
+      <article class="service-card reveal" data-delay="500">
+        <div class="service-num">06</div>
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 002 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0022 16z"/><path d="M12 22V12"/><path d="M22 7l-10 5-10-5"/></svg>
+        </div>
+        <h3>Maintenance & support</h3>
+        <p>Suivi, mises à jour, corrections, optimisations. Nous veillons sur votre produit pour qu'il reste performant.</p>
+        <div class="service-tags"><span>Updates</span><span>Sécurité</span><span>Performance</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section" id="process">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-label">Notre méthode</span>
+      <h2 class="section-title">Comment nous <span class="serif accent">travaillons</span> ensemble</h2>
+      <p class="section-desc">Un processus éprouvé, transparent, qui garantit la réussite de votre projet à chaque étape.</p>
+    </div>
+
+    <div class="process-grid">
+      <div class="process-step reveal">
+        <div class="process-num">01</div>
+        <h4>Échange & brief</h4>
+        <p>Appel de 30 min pour comprendre votre projet, vos objectifs, votre budget. Gratuit et sans engagement.</p>
+      </div>
+      <div class="process-step reveal" data-delay="100">
+        <div class="process-num">02</div>
+        <h4>Maquette & validation</h4>
+        <p>Nous concevons une maquette visuelle que vous validez avant le développement. Itérations illimitées.</p>
+      </div>
+      <div class="process-step reveal" data-delay="200">
+        <div class="process-num">03</div>
+        <h4>Développement</h4>
+        <p>Intégration, développement et tests. Vous suivez l'avancement en temps réel sur un lien privé.</p>
+      </div>
+      <div class="process-step reveal" data-delay="300">
+        <div class="process-num">04</div>
+        <h4>Mise en ligne</h4>
+        <p>Déploiement, formation à l'utilisation, et suivi post-livraison. Votre succès est notre priorité.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="section" id="portfolio">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-label">Portfolio</span>
+      <h2 class="section-title">Nos réalisations <span class="accent">récentes</span></h2>
+      <p class="section-desc">Une sélection de projets qui illustrent notre savoir-faire et notre engagement envers l'excellence.</p>
+    </div>
+
+    <div class="portfolio-filter reveal">
+      <button class="filter-btn active" data-filter="all">Tous</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="mobile">Mobile</button>
+      <button class="filter-btn" data-filter="design">Design</button>
+    </div>
+
+    <div class="portfolio-grid">
+      <article class="project reveal" data-cat="web">
+        <div class="project-bg" style="background: linear-gradient(135deg, #0c4a6e 0%, #0369a1 50%, #0ea5e9 100%); display:flex; align-items:center; justify-content:center;">
+          <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+        </div>
+        <div class="project-overlay"></div>
+        <a href="https://tokponwe10.github.io/SpeedLinge/" target="_blank" class="project-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </a>
+        <div class="project-info">
+          <span class="project-cat">Site Web</span>
+          <h3>SpeedLinge</h3>
+          <p>Buanderie professionnelle — site vitrine avec système de prise de commande en ligne.</p>
+        </div>
+      </article>
+
+      <article class="project reveal" data-cat="mobile" data-delay="100">
+        <div class="project-bg" style="background: linear-gradient(135deg, #0369a1 0%, #0ea5e9 50%, #38bdf8 100%); display:flex; align-items:center; justify-content:center;">
+          <svg width="80" height="100" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="0.5"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+        </div>
+        <div class="project-overlay"></div>
+        <div class="project-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </div>
+        <div class="project-info">
+          <span class="project-cat">App Mobile</span>
+          <h3>Food App</h3>
+          <p>Application Flutter de commande de plats avec paiement et suivi de livraison en temps réel.</p>
+        </div>
+      </article>
+
+      <article class="project reveal" data-cat="web" data-delay="200">
+        <div class="project-bg" style="background: linear-gradient(135deg, #075985 0%, #0369a1 50%, #0ea5e9 100%); display:flex; align-items:center; justify-content:center;">
+          <svg width="100" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+        </div>
+        <div class="project-overlay"></div>
+        <div class="project-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </div>
+        <div class="project-info">
+          <span class="project-cat">Site Web</span>
+          <h3>Site École</h3>
+          <p>Plateforme vitrine pour établissement scolaire avec système d'inscription en ligne.</p>
+        </div>
+      </article>
+
+      <article class="project reveal" data-cat="design" data-delay="300">
+        <div class="project-bg" style="background: linear-gradient(135deg, #0ea5e9 0%, #a855f7 50%, #ec4899 100%); display:flex; align-items:center; justify-content:center;">
+          <svg width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        </div>
+        <div class="project-overlay"></div>
+        <div class="project-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </div>
+        <div class="project-info">
+          <span class="project-cat">Identité visuelle</span>
+          <h3>Branding & Logos</h3>
+          <p>Créations d'identités visuelles complètes pour entrepreneurs et marques locales.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section" id="pricing">
+  <div class="container">
+    <div class="section-head reveal" style="text-align:center; margin-left:auto; margin-right:auto;">
+      <span class="section-label" style="justify-content:center;">Tarifs transparents</span>
+      <h2 class="section-title">Des formules <span class="serif accent">claires</span>, sans surprise</h2>
+      <p class="section-desc" style="margin:0 auto;">Choisissez la formule qui correspond à vos besoins. Un devis gratuit peut être adapté à votre projet spécifique.</p>
+    </div>
+
+    <div class="pricing-grid">
+      <div class="price-card reveal">
+        <h3>Starter</h3>
+        <p class="subtitle">Idéal pour débuter en ligne</p>
+        <div class="price-amount">
+          <span class="from">à partir de</span>
+          <span class="num">100K</span>
+          <span class="currency">FCFA</span>
+        </div>
+        <ul class="price-features">
+          <li>Site vitrine (1 page)</li>
+          <li>Design moderne & responsive</li>
+          <li>Intégration WhatsApp</li>
+          <li>Fiche Google My Business</li>
+          <li>Formulaire de contact</li>
+          <li>Livré en 5-7 jours</li>
+        </ul>
+        <a href="https://wa.me/2290197349687?text=Bonjour%20UpTech,%20je%20suis%20int%C3%A9ress%C3%A9%20par%20la%20formule%20Starter%20(100K%20FCFA)" target="_blank" class="price-btn">Choisir Starter</a>
+      </div>
+
+      <div class="price-card featured reveal" data-delay="100">
+        <h3>Pro</h3>
+        <p class="subtitle">Le choix des entrepreneurs</p>
+        <div class="price-amount">
+          <span class="from">à partir de</span>
+          <span class="num">200K</span>
+          <span class="currency">FCFA</span>
+        </div>
+        <ul class="price-features">
+          <li>Site complet (jusqu'à 8 pages)</li>
+          <li>Design sur mesure premium</li>
+          <li>Optimisation SEO avancée</li>
+          <li>Google Maps + analytics</li>
+          <li>Page réseaux sociaux + blog</li>
+          <li>Formation à l'utilisation</li>
+          <li>Livré en 10-14 jours</li>
+          <li>3 mois de maintenance offerts</li>
+        </ul>
+        <a href="https://wa.me/2290197349687?text=Bonjour%20UpTech,%20je%20suis%20int%C3%A9ress%C3%A9%20par%20la%20formule%20Pro%20(200K%20FCFA)" target="_blank" class="price-btn">Choisir Pro</a>
+      </div>
+
+      <div class="price-card reveal" data-delay="200">
+        <h3>Premium</h3>
+        <p class="subtitle">Projet ambitieux</p>
+        <div class="price-amount">
+          <span class="from">tarif</span>
+          <span class="num text">Sur devis</span>
+          <span class="currency"></span>
+        </div>
+        <ul class="price-features">
+          <li>Site vitrine haut de gamme</li>
+          <li>Application mobile incluse</li>
+          <li>E-commerce ou espace client</li>
+          <li>SEO + publicité Facebook</li>
+          <li>Identité visuelle complète</li>
+          <li>Support prioritaire</li>
+          <li>6 mois de maintenance</li>
+        </ul>
+        <a href="https://wa.me/2290197349687?text=Bonjour%20UpTech,%20je%20suis%20int%C3%A9ress%C3%A9%20par%20la%20formule%20Premium%20(sur%20devis)" target="_blank" class="price-btn">Choisir Premium</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-head reveal" style="text-align:center; margin-left:auto; margin-right:auto;">
+      <span class="section-label" style="justify-content:center;">FAQ</span>
+      <h2 class="section-title">Questions <span class="accent">fréquentes</span></h2>
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <span>Combien de temps prend la création d'un site ?</span>
+          <div class="faq-toggle"></div>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">Un site vitrine simple est livré en 5 à 7 jours. Pour un projet plus complet (e-commerce, plusieurs pages, contenus spécifiques), comptez 10 à 14 jours. Nous vous donnons un calendrier précis dès le début du projet.</div></div>
+      </div>
+      <div class="faq-item reveal" data-delay="100">
+        <div class="faq-q">
+          <span>Comment se passe le paiement ?</span>
+          <div class="faq-toggle"></div>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">Nous fonctionnons en 2 versements : 50% à la validation de la maquette, 50% à la livraison finale. Paiement possible par virement, Mobile Money (MTN, Moov), ou espèces sur Parakou.</div></div>
+      </div>
+      <div class="faq-item reveal" data-delay="150">
+        <div class="faq-q">
+          <span>Est-ce que je peux modifier mon site moi-même après ?</span>
+          <div class="faq-toggle"></div>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">Oui. Nous livrons une formation de 30 min à la prise en main et un guide écrit. Vous pouvez modifier textes, photos et informations sans aucune compétence technique. Pour les modifications plus importantes, notre service de maintenance est disponible.</div></div>
+      </div>
+      <div class="faq-item reveal" data-delay="200">
+        <div class="faq-q">
+          <span>Travaillez-vous hors du Bénin ?</span>
+          <div class="faq-toggle"></div>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">Oui. Nous travaillons à distance avec des clients au Togo, Niger, Côte d'Ivoire, France et Canada. Les échanges se font par WhatsApp, email ou visio selon votre préférence.</div></div>
+      </div>
+      <div class="faq-item reveal" data-delay="250">
+        <div class="faq-q">
+          <span>Que se passe-t-il si je ne suis pas satisfait ?</span>
+          <div class="faq-toggle"></div>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">Nous révisons jusqu'à satisfaction complète. La maquette est validée avant le développement pour éviter les mauvaises surprises. Nous offrons aussi une garantie de corrections gratuite pendant 30 jours après la mise en ligne.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<div class="cta-band">
+  <h2>Prêt à donner vie à votre projet ?</h2>
+  <p>Un appel gratuit de 30 minutes suffit pour comprendre votre besoin et vous proposer la meilleure solution.</p>
+  <a href="https://wa.me/2290197349687?text=Bonjour%20UpTech,%20je%20souhaite%20r%C3%A9server%20un%20appel%20gratuit%20pour%20discuter%20de%20mon%20projet" target="_blank" class="btn-primary">
+    <span>Réserver un appel gratuit</span>
+    <div class="arrow">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+    </div>
+  </a>
+</div>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="reveal">
+          <span class="section-label">Contact</span>
+          <h2 class="section-title">Donnons vie à votre <span class="serif accent">prochain projet</span></h2>
+          <p>Contactez-nous et discutons de votre vision. Nous répondons sous 24h.</p>
         </div>
 
-        <div class="container">
-            <!-- Header -->
-            <div class="about-header" data-animate="fade-up">
-                <span class="section-tag">Qui sommes-nous</span>
-                <h2 class="about-main-title">
-                    À propos de <span class="gradient-text">UpTech</span>
-                </h2>
-                <p class="about-intro">
-                    Agence digitale spécialisée en création de sites web et applications mobiles,
-                    nous accompagnons les entreprises, écoles et entrepreneurs dans leur transformation
-                    numérique depuis Parakou, au Bénin.
-                </p>
+        <div class="contact-items reveal" data-delay="100">
+          <div class="contact-item">
+            <div class="ico">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
             </div>
-
-            <!-- Founder strip -->
-            <div class="about-founder" data-animate="fade-up" data-delay="150">
-                <div class="founder-avatar">
-                    <span>OT</span>
-                </div>
-                <div class="founder-info">
-                    <strong>Olive C. TOKPONWE</strong>
-                    <span>Fondateur & Directeur Créatif</span>
-                </div>
-                <div class="founder-stats">
-                    <div class="founder-stat">
-                        <span class="founder-stat-num" data-count="5">0</span><span class="founder-stat-plus">+</span>
-                        <span class="founder-stat-label">Années</span>
-                    </div>
-                    <div class="founder-stat-divider"></div>
-                    <div class="founder-stat">
-                        <span class="founder-stat-num" data-count="4">0</span><span class="founder-stat-plus">+</span>
-                        <span class="founder-stat-label">Projets</span>
-                    </div>
-                    <div class="founder-stat-divider"></div>
-                    <div class="founder-stat">
-                        <span class="founder-stat-num">6</span>
-                        <span class="founder-stat-label">Services</span>
-                    </div>
-                </div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:agencyuptech@gmail.com">agencyuptech@gmail.com</a>
             </div>
-
-            <!-- Mission / Vision / Objectif cards -->
-            <div class="about-pillars">
-                <div class="pillar-card" data-animate="fade-up" data-delay="100">
-                    <div class="pillar-icon-wrap">
-                        <div class="pillar-icon">
-                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                                <path d="M2 17l10 5 10-5"/>
-                                <path d="M2 12l10 5 10-5"/>
-                            </svg>
-                        </div>
-                        <span class="pillar-number">01</span>
-                    </div>
-                    <h3 class="pillar-title">Notre Mission</h3>
-                    <p class="pillar-text">
-                        Rendre le digital accessible à tous en offrant des solutions web et mobiles
-                        de qualité professionnelle. Nous croyons que chaque entreprise, quelle que soit
-                        sa taille, mérite une présence en ligne qui reflète son ambition.
-                    </p>
-                    <div class="pillar-tags">
-                        <span>Accessibilité</span>
-                        <span>Qualité</span>
-                        <span>Sur mesure</span>
-                    </div>
-                </div>
-
-                <div class="pillar-card pillar-featured" data-animate="fade-up" data-delay="200">
-                    <div class="pillar-icon-wrap">
-                        <div class="pillar-icon">
-                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="12" cy="12" r="10"/>
-                                <path d="M2 12h20"/>
-                                <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
-                            </svg>
-                        </div>
-                        <span class="pillar-number">02</span>
-                    </div>
-                    <h3 class="pillar-title">Notre Vision</h3>
-                    <p class="pillar-text">
-                        Devenir la référence de la création digitale en Afrique de l'Ouest.
-                        Nous voulons bâtir un écosystème tech dynamique depuis le Bénin,
-                        en formant et inspirant la prochaine génération de créateurs numériques.
-                    </p>
-                    <div class="pillar-tags">
-                        <span>Afrique de l'Ouest</span>
-                        <span>Innovation</span>
-                        <span>Leadership</span>
-                    </div>
-                </div>
-
-                <div class="pillar-card" data-animate="fade-up" data-delay="300">
-                    <div class="pillar-icon-wrap">
-                        <div class="pillar-icon">
-                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/>
-                                <path d="M22 4L12 14.01l-3-3"/>
-                            </svg>
-                        </div>
-                        <span class="pillar-number">03</span>
-                    </div>
-                    <h3 class="pillar-title">Nos Objectifs</h3>
-                    <p class="pillar-text">
-                        Livrer des projets qui dépassent les attentes de nos clients.
-                        Chaque ligne de code, chaque pixel est pensé pour maximiser l'impact,
-                        la performance et la satisfaction de nos partenaires.
-                    </p>
-                    <div class="pillar-tags">
-                        <span>Performance</span>
-                        <span>Impact</span>
-                        <span>Excellence</span>
-                    </div>
-                </div>
+          </div>
+          <div class="contact-item">
+            <div class="ico">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
             </div>
-
-            <!-- Tech stack -->
-            <div class="about-tech" data-animate="fade-up" data-delay="200">
-                <span class="tech-label">Technologies maîtrisées</span>
-                <div class="tech-list">
-                    <div class="tech-item">HTML</div>
-                    <div class="tech-item">CSS</div>
-                    <div class="tech-item">JavaScript</div>
-                    <div class="tech-item">Flutter</div>
-                    <div class="tech-item">Dart</div>
-                    <div class="tech-item">WordPress</div>
-                </div>
+            <div>
+              <strong>Téléphone & WhatsApp</strong>
+              <a href="tel:+2290197349687">+229 01 97 34 96 87</a>
             </div>
+          </div>
+          <div class="contact-item">
+            <div class="ico">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <strong>Adresse</strong>
+              <span>Parakou, Borgou, Bénin</span>
+            </div>
+          </div>
         </div>
-    </section>
 
-    <!-- Services -->
-    <section class="section services" id="services">
-        <div class="container">
-            <div class="section-header" data-animate="fade-up">
-                <span class="section-tag">Nos Services</span>
-                <h2 class="section-title">Des solutions complètes pour votre <span class="gradient-text">croissance digitale</span></h2>
-                <p class="section-desc">De la conception à la réalisation, nous vous accompagnons à chaque étape de votre transformation numérique.</p>
-            </div>
-            <div class="services-grid">
-                <article class="service-card" data-animate="fade-up" data-delay="0">
-                    <div class="service-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
-                    </div>
-                    <h3>Création de Sites Web</h3>
-                    <p>Sites vitrines et professionnels modernes, rapides et optimisés pour convertir vos visiteurs en clients.</p>
-                    <ul class="service-tags">
-                        <li>HTML / CSS / JS</li>
-                        <li>WordPress</li>
-                        <li>Site vitrine</li>
-                    </ul>
-                    <div class="service-number">01</div>
-                </article>
-                <article class="service-card" data-animate="fade-up" data-delay="100">
-                    <div class="service-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
-                    </div>
-                    <h3>Applications Mobiles</h3>
-                    <p>Applications mobiles performantes et intuitives pour Android et iOS, adaptées à vos besoins métier.</p>
-                    <ul class="service-tags">
-                        <li>Flutter</li>
-                        <li>Dart</li>
-                        <li>Android / iOS</li>
-                    </ul>
-                    <div class="service-number">02</div>
-                </article>
-                <article class="service-card" data-animate="fade-up" data-delay="200">
-                    <div class="service-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-                    </div>
-                    <h3>Design UI/UX</h3>
-                    <p>Interfaces utilisateur modernes et expériences fluides qui rendent vos produits digitaux agréables à utiliser.</p>
-                    <ul class="service-tags">
-                        <li>Maquettes</li>
-                        <li>Prototypage</li>
-                        <li>Responsive</li>
-                    </ul>
-                    <div class="service-number">03</div>
-                </article>
-                <article class="service-card" data-animate="fade-up" data-delay="300">
-                    <div class="service-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
-                    </div>
-                    <h3>Graphisme & Identité</h3>
-                    <p>Création de logos, visuels et identités visuelles complètes qui reflètent l'image professionnelle de votre marque.</p>
-                    <ul class="service-tags">
-                        <li>Logo</li>
-                        <li>Visuels</li>
-                        <li>Identité visuelle</li>
-                    </ul>
-                    <div class="service-number">04</div>
-                </article>
-                <article class="service-card" data-animate="fade-up" data-delay="400">
-                    <div class="service-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                    </div>
-                    <h3>Référencement SEO</h3>
-                    <p>Optimisation de votre visibilité sur Google pour attirer plus de clients et dominer votre marché en ligne.</p>
-                    <ul class="service-tags">
-                        <li>SEO on-page</li>
-                        <li>Google</li>
-                        <li>Mots-clés</li>
-                    </ul>
-                    <div class="service-number">05</div>
-                </article>
-                <article class="service-card" data-animate="fade-up" data-delay="500">
-                    <div class="service-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 002 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0022 16z"/><path d="M12 22V12"/><path d="M22 7l-10 5-10-5"/></svg>
-                    </div>
-                    <h3>Maintenance & Optimisation</h3>
-                    <p>Suivi, mise à jour et optimisation continue de vos sites pour garantir performance et sécurité au quotidien.</p>
-                    <ul class="service-tags">
-                        <li>Performance</li>
-                        <li>Sécurité</li>
-                        <li>Mises à jour</li>
-                    </ul>
-                    <div class="service-number">06</div>
-                </article>
-            </div>
+        <div class="socials reveal" data-delay="200">
+          <a href="https://www.linkedin.com/company/uptechagency" target="_blank" class="social" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="https://www.facebook.com/uptechagency" target="_blank" class="social" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12c0-6.627-5.373-12-12-12S0 5.373 0 12c0 5.99 4.388 10.954 10.125 11.854V15.47H7.078V12h3.047V9.356c0-3.007 1.792-4.668 4.533-4.668 1.312 0 2.686.234 2.686.234v2.953H15.83c-1.49 0-1.955.925-1.955 1.874V12h3.328l-.532 3.47h-2.796v8.385C19.612 22.954 24 17.99 24 12z"/></svg></a>
+          <a href="https://www.instagram.com/uptechagency" target="_blank" class="social" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+          <a href="https://wa.me/2290197349687" class="social" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a>
         </div>
-    </section>
+      </div>
 
-    <!-- Portfolio -->
-    <section class="section portfolio" id="portfolio">
-        <div class="container">
-            <div class="section-header" data-animate="fade-up">
-                <span class="section-tag">Portfolio</span>
-                <h2 class="section-title">Nos réalisations <span class="gradient-text">récentes</span></h2>
-                <p class="section-desc">Découvrez une sélection de projets qui illustrent notre savoir-faire et notre engagement envers l'excellence.</p>
-            </div>
-            <div class="portfolio-filter" data-animate="fade-up">
-                <button class="filter-btn active" data-filter="all">Tous</button>
-                <button class="filter-btn" data-filter="mobile">Mobile</button>
-                <button class="filter-btn" data-filter="web">Web</button>
-            </div>
-            <div class="portfolio-grid">
-                <article class="portfolio-card" data-category="mobile" data-animate="fade-up">
-                    <div class="portfolio-image" style="background: linear-gradient(135deg, #0369a1 0%, #0ea5e9 50%, #38bdf8 100%);">
-                        <div class="portfolio-overlay">
-                            <span class="portfolio-view">Voir le projet</span>
-                        </div>
-                        <div class="portfolio-mockup">
-                            <svg width="60" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-cat">App Mobile</span>
-                        <h3>Food App</h3>
-                        <p>Application mobile de commande de plats avec interface moderne et intuitive.</p>
-                    </div>
-                </article>
-                <article class="portfolio-card" data-category="web" data-animate="fade-up" data-delay="100">
-                    <div class="portfolio-image" style="background: linear-gradient(135deg, #075985 0%, #0369a1 50%, #0ea5e9 100%);">
-                        <div class="portfolio-overlay">
-                            <span class="portfolio-view">Voir le projet</span>
-                        </div>
-                        <div class="portfolio-mockup">
-                            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-cat">Site Web</span>
-                        <h3>Site École</h3>
-                        <p>Site web vitrine pour établissement scolaire avec présentation des activités et contact.</p>
-                    </div>
-                </article>
-                <article class="portfolio-card" data-category="web" data-animate="fade-up" data-delay="200">
-                    <div class="portfolio-image" style="background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 50%, #bae6fd 100%);">
-                        <div class="portfolio-overlay">
-                            <span class="portfolio-view">Voir le projet</span>
-                        </div>
-                        <div class="portfolio-mockup">
-                            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 002 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0022 16z"/></svg>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-cat">Site Web</span>
-                        <h3>Site Agence UpTech</h3>
-                        <p>Site vitrine professionnel présentant les services et réalisations de l'agence.</p>
-                    </div>
-                </article>
-                <article class="portfolio-card" data-category="web" data-animate="fade-up" data-delay="300">
-                    <div class="portfolio-image" style="background: linear-gradient(135deg, #0c4a6e 0%, #0369a1 50%, #0ea5e9 100%);">
-                        <div class="portfolio-overlay">
-                            <span class="portfolio-view">Voir le projet</span>
-                        </div>
-                        <div class="portfolio-mockup">
-                            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-cat">Site Web</span>
-                        <h3>Buanderie Speelinge</h3>
-                        <p>Site web conçu pour une buanderie, permettant de présenter les services et faciliter le contact client.</p>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
+      <div class="contact-form-wrap reveal" data-delay="100">
+        <form class="form-grid" id="contact-form">
+          <div class="form-group"><label>Nom complet</label><input type="text" id="cname" placeholder="Votre nom" required></div>
+          <div class="form-group"><label>Email</label><input type="email" id="cemail" placeholder="vous@email.com" required></div>
+          <div class="form-group"><label>Téléphone</label><input type="tel" id="cphone" placeholder="+229 ..." required></div>
+          <div class="form-group"><label>Service</label>
+            <select id="cservice" required>
+              <option value="">Sélectionnez un service</option>
+              <option>Site web vitrine</option>
+              <option>Site e-commerce</option>
+              <option>Application mobile</option>
+              <option>Design UI/UX</option>
+              <option>Graphisme / Identité</option>
+              <option>Référencement SEO</option>
+              <option>Autre</option>
+            </select>
+          </div>
+          <div class="form-group full"><label>Budget estimé</label>
+            <select id="cbudget">
+              <option>Moins de 100 000 FCFA</option>
+              <option>100 000 – 200 000 FCFA</option>
+              <option>200 000 – 500 000 FCFA</option>
+              <option>Plus de 500 000 FCFA</option>
+              <option>À discuter</option>
+            </select>
+          </div>
+          <div class="form-group full"><label>Décrivez votre projet</label><textarea id="cmessage" placeholder="Parlez-nous de votre vision, vos objectifs, votre audience..." required></textarea></div>
+          <button type="submit" class="submit-btn">
+            Envoyer via WhatsApp
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Témoignages -->
-    <section class="section testimonials" id="temoignages">
-        <div class="container">
-            <div class="section-header" data-animate="fade-up">
-                <span class="section-tag">Témoignages</span>
-                <h2 class="section-title">Ce que disent <span class="gradient-text">nos clients</span></h2>
-                <p class="section-desc">La satisfaction de nos clients est notre meilleure carte de visite.</p>
-            </div>
-            <div class="testimonials-slider" data-animate="fade-up">
-                <div class="testimonials-track" id="testimonials-track">
-                    <div class="testimonial-card">
-                        <div class="testimonial-stars">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <blockquote class="testimonial-text">
-                            "UpTech a complètement transformé notre présence en ligne. Leur approche créative et leur expertise technique ont dépassé toutes nos attentes. Le ROI a été visible dès le premier mois."
-                        </blockquote>
-                        <div class="testimonial-author">
-                            <div class="author-avatar" style="background: linear-gradient(135deg, #0369a1, #0ea5e9);">SL</div>
-                            <div>
-                                <strong>Sophie Laurent</strong>
-                                <span>CEO, TechVision</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-card">
-                        <div class="testimonial-stars">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <blockquote class="testimonial-text">
-                            "L'équipe UpTech est exceptionnelle. Ils ont su comprendre nos besoins et livrer une application mobile qui a révolutionné notre façon d'interagir avec nos clients. Un vrai game-changer."
-                        </blockquote>
-                        <div class="testimonial-author">
-                            <div class="author-avatar" style="background: linear-gradient(135deg, #075985, #0369a1);">MD</div>
-                            <div>
-                                <strong>Marc Dubois</strong>
-                                <span>Directeur Digital, InnovateCo</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-card">
-                        <div class="testimonial-stars">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <blockquote class="testimonial-text">
-                            "Professionnalisme, créativité et réactivité. UpTech a redesigné notre identité de marque et notre site en un temps record. Les résultats parlent d'eux-mêmes : +200% de conversions."
-                        </blockquote>
-                        <div class="testimonial-author">
-                            <div class="author-avatar" style="background: linear-gradient(135deg, #0ea5e9, #38bdf8);">AC</div>
-                            <div>
-                                <strong>Amélie Chen</strong>
-                                <span>Fondatrice, EcoStart</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-card">
-                        <div class="testimonial-stars">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        </div>
-                        <blockquote class="testimonial-text">
-                            "Travailler avec UpTech a été une expérience incroyable. Leur expertise en développement et leur sens du design ont permis de créer une plateforme que nos utilisateurs adorent."
-                        </blockquote>
-                        <div class="testimonial-author">
-                            <div class="author-avatar" style="background: linear-gradient(135deg, #0c4a6e, #0369a1);">PR</div>
-                            <div>
-                                <strong>Pierre Rousseau</strong>
-                                <span>CTO, FinanceHub</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonials-nav">
-                    <button class="test-nav-btn" id="test-prev" aria-label="Précédent">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-                    </button>
-                    <div class="test-dots" id="test-dots"></div>
-                    <button class="test-nav-btn" id="test-next" aria-label="Suivant">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#hero" class="nav-logo">
+        <img src="logo.jpeg" alt="UpTech Agency Logo" width="40" height="40">
+        <span class="logo-text">Up<em>Tech</em></span>
+      </a>
+      <p>Agence digitale basée à Parakou, Bénin. Sites web, apps mobiles, design et graphisme. Fondée par Olive C. TOKPONWE.</p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/company/uptechagency" target="_blank" class="social" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+        <a href="https://www.facebook.com/uptechagency" target="_blank" class="social" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12c0-6.627-5.373-12-12-12S0 5.373 0 12c0 5.99 4.388 10.954 10.125 11.854V15.47H7.078V12h3.047V9.356c0-3.007 1.792-4.668 4.533-4.668 1.312 0 2.686.234 2.686.234v2.953H15.83c-1.49 0-1.955.925-1.955 1.874V12h3.328l-.532 3.47h-2.796v8.385C19.612 22.954 24 17.99 24 12z"/></svg></a>
+        <a href="https://wa.me/2290197349687" class="social" aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h5>Navigation</h5>
+      <ul>
+        <li><a href="#hero">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#pricing">Tarifs</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Services</h5>
+      <ul>
+        <li><a href="#services">Sites web</a></li>
+        <li><a href="#services">Apps mobiles</a></li>
+        <li><a href="#services">UI/UX Design</a></li>
+        <li><a href="#services">Graphisme</a></li>
+        <li><a href="#services">SEO</a></li>
+      </ul>
+    </div>
+    <div class="footer-col footer-newsletter">
+      <h5>Newsletter</h5>
+      <p style="color:var(--text-dim); font-size:0.88rem;">Conseils digitaux et actualités UpTech directement dans votre boîte mail.</p>
+      <form>
+        <input type="email" placeholder="votre@email.com" required>
+        <button type="submit" aria-label="S'abonner">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 UpTech Agency. Tous droits réservés.</p>
+    <div class="footer-bottom-links">
+      <a href="#hero">Mentions légales</a>
+      <a href="#hero">Confidentialité</a>
+    </div>
+  </div>
+</footer>
 
-    <!-- Contact -->
-    <section class="section contact" id="contact">
-        <div class="container">
-            <div class="contact-grid">
-                <div class="contact-info" data-animate="fade-up">
-                    <span class="section-tag">Contact</span>
-                    <h2 class="section-title">Donnons vie à votre <span class="gradient-text">prochain projet</span></h2>
-                    <p class="contact-desc">Prêt à transformer votre vision en réalité ? Contactez-nous et discutons de votre projet autour d'un café (virtuel ou non).</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
-                            </div>
-                            <div>
-                                <strong>Email</strong>
-                                <a href="mailto:agencyuptech@gmail.com">agencyuptech@gmail.com</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-                            </div>
-                            <div>
-                                <strong>Téléphone</strong>
-                                <a href="tel:+22901973496​87">+229 01 97 34 96 87</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                            </div>
-                            <div>
-                                <strong>Adresse</strong>
-                                <span>Parakou, Bénin</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-socials">
-                        <a href="#" class="social-link" aria-label="LinkedIn">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-                        </a>
-                        <a href="#" class="social-link" aria-label="Twitter">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                        </a>
-                        <a href="#" class="social-link" aria-label="Instagram">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                        </a>
-                        <a href="#" class="social-link" aria-label="Dribbble">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308a10.174 10.174 0 004.392-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.025-8.04 6.4a10.05 10.05 0 006.29 2.166c1.42 0 2.77-.29 4.006-.816zm-11.62-2.58c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12-.26-.585-.54-1.167-.832-1.74C7.17 11.775 2.206 11.71 1.756 11.7l-.004.312c0 2.633.998 5.037 2.634 6.855zm-2.42-8.955c.46.008 4.683.026 9.477-1.248-1.698-3.018-3.53-5.558-3.8-5.928-2.868 1.35-5.01 3.99-5.676 7.17zM9.6 2.052c.282.38 2.145 2.914 3.822 6 3.645-1.365 5.19-3.44 5.373-3.702A10.005 10.005 0 0012 1.818c-.83 0-1.634.08-2.4.234zm10.335 3.483c-.218.29-1.91 2.478-5.717 4.015.255.522.5 1.053.735 1.59.082.182.16.362.235.54 3.41-.43 6.8.26 7.14.33a9.94 9.94 0 00-2.393-6.475z"/></svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="contact-form-wrapper" data-animate="fade-left">
-                    <form class="contact-form" id="contact-form">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="name">Nom complet</label>
-                                <input type="text" id="name" name="name" placeholder="John Doe" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" placeholder="john@exemple.com" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Sujet</label>
-                            <select id="subject" name="subject" required>
-                                <option value="" disabled selected>Sélectionnez un service</option>
-                                <option value="web">Développement Web</option>
-                                <option value="design">Design UI/UX</option>
-                                <option value="branding">Branding</option>
-                                <option value="marketing">Marketing Digital</option>
-                                <option value="mobile">Application Mobile</option>
-                                <option value="other">Autre</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet..." required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-full">
-                            Envoyer le message
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/2290197349687?text=Bonjour%20UpTech,%20je%20souhaite%20discuter%20d'un%20projet" class="whatsapp-float" aria-label="WhatsApp">
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <a href="#accueil" class="footer-logo"><img src="logo.jpeg" alt="UpTech Agency" class="footer-logo-img">Up<span>Tech</span></a>
-                    <p>Agence digitale basée à Parakou, Bénin. Création de sites web, applications mobiles, design et graphisme. Fondée par Olive C. TOKPONWE.</p>
-                    <div class="footer-socials">
-                        <a href="#" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
-                        <a href="#" aria-label="Twitter"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
-                        <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
-                    </div>
-                </div>
-                <div class="footer-links">
-                    <h4>Navigation</h4>
-                    <ul>
-                        <li><a href="#accueil">Accueil</a></li>
-                        <li><a href="#apropos">À propos</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="#services">Création de Sites Web</a></li>
-                        <li><a href="#services">Applications Mobiles</a></li>
-                        <li><a href="#services">Design UI/UX</a></li>
-                        <li><a href="#services">Graphisme & Identité</a></li>
-                        <li><a href="#services">Référencement SEO</a></li>
-                        <li><a href="#services">Maintenance</a></li>
-                    </ul>
-                </div>
-                <div class="footer-newsletter">
-                    <h4>Newsletter</h4>
-                    <p>Restez informé de nos dernières actualités et projets.</p>
-                    <form class="newsletter-form" id="newsletter-form">
-                        <input type="email" placeholder="votre@email.com" required>
-                        <button type="submit" aria-label="S'abonner">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                        </button>
-                    </form>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 UpTech. Tous droits réservés.</p>
-                <div class="footer-bottom-links">
-                    <a href="#">Mentions légales</a>
-                    <a href="#">Politique de confidentialité</a>
-                </div>
-            </div>
-        </div>
-    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+/* ========== LOADER ========== */
+window.addEventListener('load', () => {
+  setTimeout(() => document.getElementById('loader').classList.add('hide'), 1500);
+});
 
-    <script src="script.js"></script>
+/* ========== THREE.JS HERO — SCÈNE PREMIUM MULTICOUCHE ========== */
+(function() {
+  const canvas = document.getElementById('three-canvas');
+  const scene = new THREE.Scene();
+  scene.fog = new THREE.FogExp2(0x050609, 0.08);
+
+  const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
+  camera.position.z = 10;
+
+  const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+  // --- OBJET PRINCIPAL : Icosaèdre avec distorsion ---
+  const mainGeo = new THREE.IcosahedronGeometry(2.2, 1);
+  const mainMat = new THREE.MeshStandardMaterial({
+    color: 0x0ea5e9,
+    metalness: 0.9,
+    roughness: 0.15,
+    flatShading: true,
+    emissive: 0x0369a1,
+    emissiveIntensity: 0.25,
+    transparent: true,
+    opacity: 0.95
+  });
+  const mainMesh = new THREE.Mesh(mainGeo, mainMat);
+  scene.add(mainMesh);
+
+  // --- Wireframe autour ---
+  const wireGeo = new THREE.IcosahedronGeometry(2.8, 1);
+  const wire = new THREE.Mesh(wireGeo, new THREE.MeshBasicMaterial({
+    color: 0x38bdf8,
+    wireframe: true,
+    transparent: true,
+    opacity: 0.2
+  }));
+  scene.add(wire);
+
+  // --- Deuxième sphère orbital violette ---
+  const orbGeo = new THREE.SphereGeometry(0.4, 32, 32);
+  const orbMat = new THREE.MeshStandardMaterial({
+    color: 0xa855f7,
+    metalness: 0.9,
+    roughness: 0.1,
+    emissive: 0x6b21a8,
+    emissiveIntensity: 0.5
+  });
+  const orb = new THREE.Mesh(orbGeo, orbMat);
+  scene.add(orb);
+
+  // --- Torus ring subtil ---
+  const ringGeo = new THREE.TorusGeometry(4, 0.015, 16, 100);
+  const ring = new THREE.Mesh(ringGeo, new THREE.MeshBasicMaterial({
+    color: 0x0ea5e9,
+    transparent: true,
+    opacity: 0.3
+  }));
+  ring.rotation.x = Math.PI / 3;
+  scene.add(ring);
+
+  const ring2Geo = new THREE.TorusGeometry(5.5, 0.01, 16, 100);
+  const ring2 = new THREE.Mesh(ring2Geo, new THREE.MeshBasicMaterial({
+    color: 0xa855f7,
+    transparent: true,
+    opacity: 0.2
+  }));
+  ring2.rotation.x = Math.PI / 4;
+  ring2.rotation.y = Math.PI / 6;
+  scene.add(ring2);
+
+  // --- Particules grand nuage ---
+  const pCount = 2500;
+  const positions = new Float32Array(pCount * 3);
+  const colors = new Float32Array(pCount * 3);
+  for (let i = 0; i < pCount; i++) {
+    positions[i*3] = (Math.random() - 0.5) * 40;
+    positions[i*3+1] = (Math.random() - 0.5) * 25;
+    positions[i*3+2] = (Math.random() - 0.5) * 20;
+    const colorChoice = Math.random();
+    if (colorChoice < 0.6) { colors[i*3] = 0.055; colors[i*3+1] = 0.65; colors[i*3+2] = 0.91; }
+    else if (colorChoice < 0.9) { colors[i*3] = 1; colors[i*3+1] = 1; colors[i*3+2] = 1; }
+    else { colors[i*3] = 0.66; colors[i*3+1] = 0.33; colors[i*3+2] = 0.97; }
+  }
+  const pGeo = new THREE.BufferGeometry();
+  pGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+  pGeo.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+  const pMat = new THREE.PointsMaterial({
+    size: 0.035,
+    vertexColors: true,
+    transparent: true,
+    opacity: 0.85,
+    sizeAttenuation: true,
+    blending: THREE.AdditiveBlending
+  });
+  const particles = new THREE.Points(pGeo, pMat);
+  scene.add(particles);
+
+  // --- Petites particules proches (étoiles) ---
+  const starCount = 300;
+  const starPos = new Float32Array(starCount * 3);
+  for (let i = 0; i < starCount * 3; i++) starPos[i] = (Math.random() - 0.5) * 15;
+  const starGeo = new THREE.BufferGeometry();
+  starGeo.setAttribute('position', new THREE.BufferAttribute(starPos, 3));
+  const stars = new THREE.Points(starGeo, new THREE.PointsMaterial({
+    color: 0xffffff, size: 0.08, transparent: true, opacity: 0.8
+  }));
+  scene.add(stars);
+
+  // --- Lumières ---
+  scene.add(new THREE.AmbientLight(0x0a1128, 0.4));
+  const keyLight = new THREE.PointLight(0x0ea5e9, 2.5, 30);
+  keyLight.position.set(5, 5, 5);
+  scene.add(keyLight);
+  const rimLight = new THREE.PointLight(0xa855f7, 2, 25);
+  rimLight.position.set(-5, -3, 5);
+  scene.add(rimLight);
+  const accentLight = new THREE.PointLight(0xfbbf24, 1, 20);
+  accentLight.position.set(0, 5, -5);
+  scene.add(accentLight);
+
+  // --- Souris + scroll tracking ---
+  let mouseX = 0, mouseY = 0, targetX = 0, targetY = 0;
+  window.addEventListener('mousemove', (e) => {
+    targetX = (e.clientX / window.innerWidth - 0.5) * 2;
+    targetY = (e.clientY / window.innerHeight - 0.5) * 2;
+  });
+
+  let scrollY = 0;
+  window.addEventListener('scroll', () => { scrollY = window.scrollY; });
+
+  // --- Animation ---
+  let t = 0;
+  function animate() {
+    requestAnimationFrame(animate);
+    t += 0.01;
+
+    // Rotation objet principal
+    mainMesh.rotation.x += 0.003;
+    mainMesh.rotation.y += 0.005;
+    wire.rotation.x -= 0.002;
+    wire.rotation.y -= 0.004;
+
+    // Orbe qui tourne autour
+    orb.position.x = Math.cos(t * 0.8) * 4;
+    orb.position.y = Math.sin(t * 0.8) * 1.5;
+    orb.position.z = Math.sin(t * 0.8) * 2;
+
+    // Rings
+    ring.rotation.z += 0.002;
+    ring2.rotation.z -= 0.0015;
+    ring2.rotation.x += 0.001;
+
+    // Particules flottantes
+    particles.rotation.y += 0.0004;
+    particles.rotation.x += 0.0002;
+    stars.rotation.y -= 0.0002;
+
+    // Effet scroll : décalage vertical subtil
+    mainMesh.position.y = -scrollY * 0.002;
+    wire.position.y = -scrollY * 0.002;
+
+    // Parallax caméra
+    mouseX += (targetX - mouseX) * 0.05;
+    mouseY += (targetY - mouseY) * 0.05;
+    camera.position.x = mouseX * 1.2;
+    camera.position.y = -mouseY * 1.2;
+    camera.lookAt(scene.position);
+
+    renderer.render(scene, camera);
+  }
+  animate();
+
+  // --- Resize ---
+  window.addEventListener('resize', () => {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+  });
+})();
+
+/* ========== CUSTOM CURSOR ========== */
+(function() {
+  const cursor = document.getElementById('cursor');
+  const follower = document.getElementById('cursor-follower');
+  let mx = 0, my = 0, fx = 0, fy = 0;
+
+  window.addEventListener('mousemove', (e) => {
+    mx = e.clientX; my = e.clientY;
+    cursor.style.left = mx + 'px';
+    cursor.style.top = my + 'px';
+  });
+
+  function follow() {
+    fx += (mx - fx) * 0.15;
+    fy += (my - fy) * 0.15;
+    follower.style.left = fx + 'px';
+    follower.style.top = fy + 'px';
+    requestAnimationFrame(follow);
+  }
+  follow();
+
+  document.querySelectorAll('a, button, .service-card, .project, .price-card, .faq-q').forEach(el => {
+    el.addEventListener('mouseenter', () => { cursor.classList.add('active'); follower.classList.add('active'); });
+    el.addEventListener('mouseleave', () => { cursor.classList.remove('active'); follower.classList.remove('active'); });
+  });
+})();
+
+/* ========== PROGRESS BAR ========== */
+window.addEventListener('scroll', () => {
+  const scrolled = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
+  document.getElementById('progress-bar').style.width = scrolled + '%';
+});
+
+/* ========== NAVBAR SCROLL ========== */
+window.addEventListener('scroll', () => {
+  const nav = document.getElementById('navbar');
+  if (window.scrollY > 50) nav.classList.add('scrolled');
+  else nav.classList.remove('scrolled');
+});
+
+/* ========== MOBILE MENU ========== */
+(function() {
+  const burger = document.querySelector('.burger');
+  const navLinks = document.querySelector('.nav-links');
+  if (burger && navLinks) {
+    burger.addEventListener('click', () => {
+      burger.classList.toggle('active');
+      navLinks.classList.toggle('open');
+    });
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        burger.classList.remove('active');
+        navLinks.classList.remove('open');
+      });
+    });
+  }
+})();
+
+/* ========== REVEAL ANIMATIONS ========== */
+const revealObs = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObs.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+
+/* ========== PORTFOLIO FILTER ========== */
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    document.querySelectorAll('.project').forEach(p => {
+      p.style.display = (filter === 'all' || p.dataset.cat === filter) ? 'block' : 'none';
+    });
+  });
+});
+
+/* ========== FAQ ACCORDION ========== */
+document.querySelectorAll('.faq-item').forEach(item => {
+  item.querySelector('.faq-q').addEventListener('click', () => {
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  });
+});
+
+/* ========== CONTACT FORM → WHATSAPP ========== */
+document.getElementById('contact-form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  const name = document.getElementById('cname').value;
+  const email = document.getElementById('cemail').value;
+  const phone = document.getElementById('cphone').value;
+  const service = document.getElementById('cservice').value;
+  const budget = document.getElementById('cbudget').value;
+  const message = document.getElementById('cmessage').value;
+
+  const text = `🚀 *Nouvelle demande — UpTech Agency*%0A%0A` +
+    `👤 *Nom :* ${name}%0A` +
+    `✉️ *Email :* ${email}%0A` +
+    `📞 *Tel :* ${phone}%0A` +
+    `🎯 *Service :* ${service}%0A` +
+    `💰 *Budget :* ${budget}%0A%0A` +
+    `💬 *Projet :*%0A${message}`;
+
+  window.open(`https://wa.me/2290197349687?text=${text}`, '_blank');
+});
+
+/* ========== NEWSLETTER FORM ========== */
+document.querySelector('.footer-newsletter form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = e.target.querySelector('input').value;
+  if (email) {
+    const text = `📬 *Inscription newsletter UpTech*%0A%0AEmail : ${email}`;
+    window.open(`https://wa.me/2290197349687?text=${text}`, '_blank');
+    e.target.querySelector('input').value = '';
+  }
+});
+
+/* ========== SMOOTH SCROLL FOR ANCHOR LINKS ========== */
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+</script>
+
 </body>
+</html>
 </html>
