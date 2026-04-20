@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
     setTimeout(() => {
         document.getElementById('loader').classList.add('hidden');
         initAnimations();
-    }, 2000);
+    }, 400);
 });
 
 // ===== SMOOTH CURSOR =====
